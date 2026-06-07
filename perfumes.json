@@ -1,0 +1,262 @@
+[
+  {
+    "id": "83134",
+    "brand": "Armaf",
+    "name": "Odyssey Aqua Edition",
+    "year": 2023,
+    "precio": 1200,
+    "en_stock": true,
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83134.jpg",
+    "photo_notas": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83134.jpg",
+    "photo_ingredientes": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83134.jpg",
+    "desc": "Fragancia aromática maderada. Dupe del Invictus Platinum. Abre con naranja y toronja, corazón de menta y lavanda, base cálida de ambroxán y pachulí.",
+    "accords": [
+      { "name": "acuático", "color": "#2E8FDE", "score": 100 },
+      { "name": "aromático", "color": "#37A089", "score": 85 },
+      { "name": "cítrico",   "color": "#D4AC0D", "score": 78 },
+      { "name": "amaderado", "color": "#774414", "score": 60 }
+    ],
+    "notas": {
+      "top":    ["Naranja", "Toronja", "Artemisa"],
+      "middle": ["Menta", "Lavanda"],
+      "base":   ["Ambroxán", "Pachulí", "Ciprés"]
+    },
+    "rating": 3.8,
+    "duracion": "Larga",
+    "temporadas": ["Primavera", "Verano"]
+  },
+  {
+    "id": "89050",
+    "brand": "Rasasi",
+    "name": "Hawas Ice",
+    "year": 2023,
+    "precio": 1650,
+    "en_stock": true,
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89050.jpg",
+    "photo_notas": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89050.jpg",
+    "photo_ingredientes": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89050.jpg",
+    "desc": "Evolución helada del clásico Hawas. Beast mode en calor. Manzana, cítricos, ciruela y ámbar gris con proyección brutal.",
+    "accords": [
+      { "name": "frutal",  "color": "#FC4B29", "score": 100 },
+      { "name": "acuático","color": "#2E8FDE", "score": 90 },
+      { "name": "especiado","color": "#4AA8A8","score": 75 },
+      { "name": "dulce",   "color": "#EE363B", "score": 65 }
+    ],
+    "notas": {
+      "top":    ["Manzana", "Limón Italiano", "Bergamota", "Anís Estrellado"],
+      "middle": ["Ciruela", "Azahar", "Cardamomo"],
+      "base":   ["Almizcle", "Ámbar", "Madera a la Deriva"]
+    },
+    "rating": 4.1,
+    "duracion": "Larga",
+    "temporadas": ["Primavera", "Verano"]
+  },
+  {
+    "id": "83132",
+    "brand": "Armaf",
+    "name": "Odyssey Mandarin Sky",
+    "year": 2023,
+    "precio": 1150,
+    "en_stock": true,
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83132.jpg",
+    "photo_notas": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83132.jpg",
+    "photo_ingredientes": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83132.jpg",
+    "desc": "Dulce y seductora. Mandarina brillante, caramelo y haba tonka con base cálida de ambroxán. Dupe del JPG Scandal.",
+    "accords": [
+      { "name": "cítrico",   "color": "#D4AC0D", "score": 100 },
+      { "name": "dulce",     "color": "#EE363B", "score": 92 },
+      { "name": "gourmand",  "color": "#DDA356", "score": 80 },
+      { "name": "amaderado", "color": "#774414", "score": 55 }
+    ],
+    "notas": {
+      "top":    ["Mandarina", "Naranja", "Azafrán", "Salvia"],
+      "middle": ["Caramelo", "Haba Tonka", "Caléndula"],
+      "base":   ["Ambroxán", "Cedro", "Vetiver"]
+    },
+    "rating": 3.9,
+    "duracion": "Moderada",
+    "temporadas": ["Otoño", "Invierno"]
+  },
+  {
+    "id": "85096",
+    "brand": "Lattafa",
+    "name": "Liam Blue Shine",
+    "year": 2023,
+    "precio": 1100,
+    "en_stock": true,
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.85096.jpg",
+    "photo_notas": "https://fimgs.net/mdimg/perfume-thumbs/375x500.85096.jpg",
+    "photo_ingredientes": "https://fimgs.net/mdimg/perfume-thumbs/375x500.85096.jpg",
+    "desc": "Fresco y acuático unisex. Dupe del Acqua di Giò Profondo. Bergamota, romero, notas marinas y base de almizcle y ámbar.",
+    "accords": [
+      { "name": "acuático",  "color": "#2E8FDE", "score": 100 },
+      { "name": "aromático", "color": "#37A089", "score": 85 },
+      { "name": "cítrico",   "color": "#D4AC0D", "score": 72 },
+      { "name": "amaderado", "color": "#774414", "score": 58 }
+    ],
+    "notas": {
+      "top":    ["Bergamota", "Romero", "Pimienta"],
+      "middle": ["Notas Marinas", "Violeta"],
+      "base":   ["Almizcle", "Ámbar", "Pachulí"]
+    },
+    "rating": 3.7,
+    "duracion": "Moderada",
+    "temporadas": ["Primavera", "Verano"]
+  },
+  {
+    "id": "70839",
+    "brand": "Afnan",
+    "name": "Turathi Blue",
+    "year": 2021,
+    "precio": 1350,
+    "en_stock": true,
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.70839.jpg",
+    "photo_notas": "https://fimgs.net/mdimg/perfume-thumbs/375x500.70839.jpg",
+    "photo_ingredientes": "https://fimgs.net/mdimg/perfume-thumbs/375x500.70839.jpg",
+    "desc": "Explosión cítrica fresca. Dupe del Bvlgari Tygar. Toronja, bergamota y ámbar gris con maderas finas.",
+    "accords": [
+      { "name": "cítrico",   "color": "#D4AC0D", "score": 100 },
+      { "name": "amaderado", "color": "#774414", "score": 85 },
+      { "name": "fresco",    "color": "#2E8FDE", "score": 78 },
+      { "name": "almizcle",  "color": "#B0A090", "score": 65 }
+    ],
+    "notas": {
+      "top":    ["Toronja", "Bergamota", "Notas Cítricas"],
+      "middle": ["Madera Blanca", "Notas Acuáticas"],
+      "base":   ["Ámbar Gris", "Almizcle", "Madera"]
+    },
+    "rating": 4.0,
+    "duracion": "Larga",
+    "temporadas": ["Primavera", "Verano"]
+  },
+  {
+    "id": "46890",
+    "brand": "Rasasi",
+    "name": "Hawas for Him",
+    "year": 2015,
+    "precio": 1500,
+    "en_stock": true,
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46890.jpg",
+    "photo_notas": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46890.jpg",
+    "photo_ingredientes": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46890.jpg",
+    "desc": "El clásico árabe más famoso. Beast mode legendario. Notas marinas, manzana, ciruela y ámbar gris con duración eterna.",
+    "accords": [
+      { "name": "acuático",  "color": "#2E8FDE", "score": 100 },
+      { "name": "frutal",    "color": "#FC4B29", "score": 88 },
+      { "name": "especiado", "color": "#CC3300", "score": 72 },
+      { "name": "almizcle",  "color": "#B0A090", "score": 65 }
+    ],
+    "notas": {
+      "top":    ["Manzana", "Bergamota", "Limón", "Canela"],
+      "middle": ["Notas Acuáticas", "Ciruela", "Azahar", "Cardamomo"],
+      "base":   ["Ámbar Gris", "Almizcle", "Pachulí", "Madera a la Deriva"]
+    },
+    "rating": 4.2,
+    "duracion": "Eterna",
+    "temporadas": ["Primavera", "Verano", "Otoño"]
+  },
+  {
+    "id": "83311",
+    "brand": "Maison Alhambra",
+    "name": "Alpine Homme Sport",
+    "year": 2022,
+    "precio": 950,
+    "en_stock": true,
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83311.jpg",
+    "photo_notas": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83311.jpg",
+    "photo_ingredientes": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83311.jpg",
+    "desc": "Dupe del Chanel Allure Homme Sport. Mandarina y menta fresca, base cálida de tonka y sándalo.",
+    "accords": [
+      { "name": "aromático",      "color": "#37A089", "score": 100 },
+      { "name": "amaderado",      "color": "#774414", "score": 88 },
+      { "name": "cítrico",        "color": "#D4AC0D", "score": 70 },
+      { "name": "fresco especiado","color": "#4AA8A8","score": 60 }
+    ],
+    "notas": {
+      "top":    ["Mandarina", "Menta", "Ciprés", "Salvia"],
+      "middle": ["Cedro", "Pimienta"],
+      "base":   ["Haba Tonka", "Almizcle", "Sándalo"]
+    },
+    "rating": 4.0,
+    "duracion": "Moderada",
+    "temporadas": ["Primavera", "Verano"]
+  },
+  {
+    "id": "64104",
+    "brand": "Armaf",
+    "name": "Club de Nuit Milestone",
+    "year": 2019,
+    "precio": 1300,
+    "en_stock": true,
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64104.jpg",
+    "photo_notas": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64104.jpg",
+    "photo_ingredientes": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64104.jpg",
+    "desc": "Dupe del Creed Millésime Impérial. Marino, limpio y elegante. Frutos rojos, notas marinas y base de almizcle.",
+    "accords": [
+      { "name": "acuático",  "color": "#2E8FDE", "score": 100 },
+      { "name": "almizcle",  "color": "#B0A090", "score": 88 },
+      { "name": "amaderado", "color": "#774414", "score": 75 },
+      { "name": "floral",    "color": "#E87DBE", "score": 60 }
+    ],
+    "notas": {
+      "top":    ["Notas Marinas", "Frutos Rojos", "Bergamota"],
+      "middle": ["Violeta", "Maderas Blancas", "Sándalo"],
+      "base":   ["Almizcle", "Ambroxán", "Vetiver"]
+    },
+    "rating": 3.9,
+    "duracion": "Moderada",
+    "temporadas": ["Primavera", "Verano"]
+  },
+  {
+    "id": "GECTIC",
+    "brand": "Fragrance World",
+    "name": "Gectic",
+    "year": 2022,
+    "precio": 900,
+    "en_stock": false,
+    "photo": "https://via.placeholder.com/375x500/1a3a6b/7bbff0?text=Gectic",
+    "photo_notas": "https://via.placeholder.com/375x500/1a3a6b/7bbff0?text=Notas",
+    "photo_ingredientes": "https://via.placeholder.com/375x500/1a3a6b/7bbff0?text=Ingredientes",
+    "desc": "Propuesta moderna y limpia, ideal para uso diario. Acordes verdes y amaderados equilibrados.",
+    "accords": [
+      { "name": "amaderado",  "color": "#774414", "score": 100 },
+      { "name": "aromático",  "color": "#37A089", "score": 85 },
+      { "name": "fresco",     "color": "#2E8FDE", "score": 72 },
+      { "name": "verde",      "color": "#4CAF50", "score": 60 }
+    ],
+    "notas": {
+      "top":    ["Bergamota", "Notas Verdes", "Cítricos"],
+      "middle": ["Lavanda", "Notas Aromáticas"],
+      "base":   ["Cedro", "Almizcle", "Sándalo"]
+    },
+    "rating": 3.6,
+    "duracion": "Moderada",
+    "temporadas": ["Primavera", "Verano"]
+  },
+  {
+    "id": "SHIAKASHADO",
+    "brand": "Boutique",
+    "name": "Shiakashado",
+    "year": 2022,
+    "precio": 1400,
+    "en_stock": false,
+    "photo": "https://via.placeholder.com/375x500/1a3a6b/7bbff0?text=Shiakashado",
+    "photo_notas": "https://via.placeholder.com/375x500/1a3a6b/7bbff0?text=Notas",
+    "photo_ingredientes": "https://via.placeholder.com/375x500/1a3a6b/7bbff0?text=Ingredientes",
+    "desc": "Oriental rico en especias cálidas, resinas y maderas lujosas. Para noches de otoño e invierno.",
+    "accords": [
+      { "name": "oriental",       "color": "#BC4D10", "score": 100 },
+      { "name": "especiado cálido","color": "#CC3300","score": 92 },
+      { "name": "amaderado",      "color": "#774414", "score": 80 },
+      { "name": "balsámico",      "color": "#AD8359", "score": 65 }
+    ],
+    "notas": {
+      "top":    ["Especias", "Canela", "Azafrán"],
+      "middle": ["Rosa", "Oud", "Resinas"],
+      "base":   ["Ámbar", "Almizcle", "Sándalo", "Pachulí"]
+    },
+    "rating": 3.8,
+    "duracion": "Eterna",
+    "temporadas": ["Otoño", "Invierno"]
+  }
+]
