@@ -9,20 +9,60 @@
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83134.jpg",
     "desc": "Dupe del Invictus Platinum. Frescura aromática maderada con naranja, toronja y artemisa. Corazón de menta y lavanda, base cálida de ambroxán y pachulí.",
     "accords": [
-      { "name": "acuático",  "color": "#2E8FDE", "score": 100 },
-      { "name": "aromático", "color": "#37A089", "score": 85 },
-      { "name": "cítrico",   "color": "#D4AC0D", "score": 78 },
-      { "name": "amaderado", "color": "#774414", "score": 60 }
+      {
+        "name": "acuático",
+        "color": "#2E8FDE",
+        "score": 100
+      },
+      {
+        "name": "aromático",
+        "color": "#37A089",
+        "score": 85
+      },
+      {
+        "name": "cítrico",
+        "color": "#D4AC0D",
+        "score": 78
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 60
+      }
     ],
     "notas": {
-      "top":    ["Naranja", "Toronja", "Artemisa"],
-      "middle": ["Menta", "Lavanda"],
-      "base":   ["Ambroxán", "Pachulí", "Ciprés"]
+      "top": [
+        "Naranja",
+        "Toronja",
+        "Artemisa"
+      ],
+      "middle": [
+        "Menta",
+        "Lavanda"
+      ],
+      "base": [
+        "Ambroxán",
+        "Pachulí",
+        "Ciprés"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Linalool", "Coumarin", "Citronellol", "Geraniol", "Citral"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Citronellol",
+      "Geraniol",
+      "Citral"
+    ],
     "rating": 3.8,
     "duracion": "Larga",
-    "temporadas": ["Primavera", "Verano"]
+    "temporadas": [
+      "Primavera",
+      "Verano"
+    ]
   },
   {
     "id": "89050",
@@ -34,20 +74,65 @@
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.89050.jpg",
     "desc": "Evolución helada del clásico Hawas. Beast mode en calor. Manzana congelada, cítricos y anís, corazón de ciruela y azahar, base de almizcle y ámbar.",
     "accords": [
-      { "name": "frutal",    "color": "#FC4B29", "score": 100 },
-      { "name": "acuático",  "color": "#2E8FDE", "score": 90 },
-      { "name": "especiado", "color": "#4AA8A8", "score": 75 },
-      { "name": "dulce",     "color": "#EE363B", "score": 65 }
+      {
+        "name": "frutal",
+        "color": "#FC4B29",
+        "score": 100
+      },
+      {
+        "name": "acuático",
+        "color": "#2E8FDE",
+        "score": 90
+      },
+      {
+        "name": "especiado",
+        "color": "#4AA8A8",
+        "score": 75
+      },
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 65
+      }
     ],
     "notas": {
-      "top":    ["Manzana", "Limón Italiano", "Bergamota", "Anís Estrellado"],
-      "middle": ["Ciruela", "Azahar", "Cardamomo"],
-      "base":   ["Almizcle", "Ámbar", "Madera a la Deriva", "Musgo"]
+      "top": [
+        "Manzana",
+        "Limón Italiano",
+        "Bergamota",
+        "Anís Estrellado"
+      ],
+      "middle": [
+        "Ciruela",
+        "Azahar",
+        "Cardamomo"
+      ],
+      "base": [
+        "Almizcle",
+        "Ámbar",
+        "Madera a la Deriva",
+        "Musgo"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Coumarin", "Linalool", "Citronellol", "Geraniol", "Alpha-Isomethyl Ionone", "Citral", "Cinnamal"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Coumarin",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Alpha-Isomethyl Ionone",
+      "Citral",
+      "Cinnamal"
+    ],
     "rating": 4.1,
     "duracion": "Larga",
-    "temporadas": ["Primavera", "Verano"]
+    "temporadas": [
+      "Primavera",
+      "Verano"
+    ]
   },
   {
     "id": "83132",
@@ -59,20 +144,63 @@
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83132.jpg",
     "desc": "Dupe del JPG Scandal. Dulce y seductora. Mandarina brillante, caramelo y haba tonka con base cálida de ambroxán y cedro.",
     "accords": [
-      { "name": "cítrico",   "color": "#D4AC0D", "score": 100 },
-      { "name": "dulce",     "color": "#EE363B", "score": 92 },
-      { "name": "gourmand",  "color": "#DDA356", "score": 80 },
-      { "name": "amaderado", "color": "#774414", "score": 55 }
+      {
+        "name": "cítrico",
+        "color": "#D4AC0D",
+        "score": 100
+      },
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 92
+      },
+      {
+        "name": "gourmand",
+        "color": "#DDA356",
+        "score": 80
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 55
+      }
     ],
     "notas": {
-      "top":    ["Mandarina", "Naranja", "Azafrán", "Salvia"],
-      "middle": ["Caramelo", "Haba Tonka", "Caléndula"],
-      "base":   ["Ambroxán", "Cedro", "Vetiver"]
+      "top": [
+        "Mandarina",
+        "Naranja",
+        "Azafrán",
+        "Salvia"
+      ],
+      "middle": [
+        "Caramelo",
+        "Haba Tonka",
+        "Caléndula"
+      ],
+      "base": [
+        "Ambroxán",
+        "Cedro",
+        "Vetiver"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Linalool", "Coumarin", "Geraniol", "Citral", "Benzyl Benzoate", "Eugenol"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Geraniol",
+      "Citral",
+      "Benzyl Benzoate",
+      "Eugenol"
+    ],
     "rating": 3.9,
     "duracion": "Moderada",
-    "temporadas": ["Otoño", "Invierno"]
+    "temporadas": [
+      "Otoño",
+      "Invierno"
+    ]
   },
   {
     "id": "85096",
@@ -84,20 +212,61 @@
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.85096.jpg",
     "desc": "Dupe del Acqua di Giò Profondo. Fresco y acuático unisex. Bergamota, romero y pimienta, notas marinas y violeta, base de almizcle y ámbar.",
     "accords": [
-      { "name": "acuático",  "color": "#2E8FDE", "score": 100 },
-      { "name": "aromático", "color": "#37A089", "score": 85 },
-      { "name": "cítrico",   "color": "#D4AC0D", "score": 72 },
-      { "name": "amaderado", "color": "#774414", "score": 58 }
+      {
+        "name": "acuático",
+        "color": "#2E8FDE",
+        "score": 100
+      },
+      {
+        "name": "aromático",
+        "color": "#37A089",
+        "score": 85
+      },
+      {
+        "name": "cítrico",
+        "color": "#D4AC0D",
+        "score": 72
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 58
+      }
     ],
     "notas": {
-      "top":    ["Bergamota", "Romero", "Pimienta"],
-      "middle": ["Notas Marinas", "Violeta"],
-      "base":   ["Almizcle", "Ámbar", "Pachulí"]
+      "top": [
+        "Bergamota",
+        "Romero",
+        "Pimienta"
+      ],
+      "middle": [
+        "Notas Marinas",
+        "Violeta"
+      ],
+      "base": [
+        "Almizcle",
+        "Ámbar",
+        "Pachulí"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Linalool", "Coumarin", "Citronellol", "Geraniol", "Citral", "Benzyl Salicylate"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Citronellol",
+      "Geraniol",
+      "Citral",
+      "Benzyl Salicylate"
+    ],
     "rating": 3.7,
     "duracion": "Moderada",
-    "temporadas": ["Primavera", "Verano"]
+    "temporadas": [
+      "Primavera",
+      "Verano"
+    ]
   },
   {
     "id": "70839",
@@ -109,20 +278,61 @@
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.70839.jpg",
     "desc": "Dupe del Bvlgari Tygar. Explosión cítrica fresca con toronja y bergamota. Fondo denso de ámbar gris y maderas finas.",
     "accords": [
-      { "name": "cítrico",   "color": "#D4AC0D", "score": 100 },
-      { "name": "amaderado", "color": "#774414", "score": 85 },
-      { "name": "fresco",    "color": "#2E8FDE", "score": 78 },
-      { "name": "almizcle",  "color": "#B0A090", "score": 65 }
+      {
+        "name": "cítrico",
+        "color": "#D4AC0D",
+        "score": 100
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 85
+      },
+      {
+        "name": "fresco",
+        "color": "#2E8FDE",
+        "score": 78
+      },
+      {
+        "name": "almizcle",
+        "color": "#B0A090",
+        "score": 65
+      }
     ],
     "notas": {
-      "top":    ["Toronja", "Bergamota", "Notas Cítricas"],
-      "middle": ["Madera Blanca", "Notas Acuáticas"],
-      "base":   ["Ámbar Gris", "Almizcle", "Madera"]
+      "top": [
+        "Toronja",
+        "Bergamota",
+        "Notas Cítricas"
+      ],
+      "middle": [
+        "Madera Blanca",
+        "Notas Acuáticas"
+      ],
+      "base": [
+        "Ámbar Gris",
+        "Almizcle",
+        "Madera"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Linalool", "Citronellol", "Geraniol", "Citral", "Ambroxan", "Iso E Super"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Citral",
+      "Ambroxan",
+      "Iso E Super"
+    ],
     "rating": 4.0,
     "duracion": "Larga",
-    "temporadas": ["Primavera", "Verano"]
+    "temporadas": [
+      "Primavera",
+      "Verano"
+    ]
   },
   {
     "id": "46890",
@@ -134,20 +344,68 @@
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46890.jpg",
     "desc": "El clásico árabe más famoso. Beast mode legendario. Notas marinas, manzana, ciruela y ámbar gris con duración eterna.",
     "accords": [
-      { "name": "acuático",  "color": "#2E8FDE", "score": 100 },
-      { "name": "frutal",    "color": "#FC4B29", "score": 88 },
-      { "name": "especiado", "color": "#CC3300", "score": 72 },
-      { "name": "almizcle",  "color": "#B0A090", "score": 65 }
+      {
+        "name": "acuático",
+        "color": "#2E8FDE",
+        "score": 100
+      },
+      {
+        "name": "frutal",
+        "color": "#FC4B29",
+        "score": 88
+      },
+      {
+        "name": "especiado",
+        "color": "#CC3300",
+        "score": 72
+      },
+      {
+        "name": "almizcle",
+        "color": "#B0A090",
+        "score": 65
+      }
     ],
     "notas": {
-      "top":    ["Manzana", "Bergamota", "Limón", "Canela"],
-      "middle": ["Notas Acuáticas", "Ciruela", "Azahar", "Cardamomo"],
-      "base":   ["Ámbar Gris", "Almizcle", "Pachulí", "Madera a la Deriva"]
+      "top": [
+        "Manzana",
+        "Bergamota",
+        "Limón",
+        "Canela"
+      ],
+      "middle": [
+        "Notas Acuáticas",
+        "Ciruela",
+        "Azahar",
+        "Cardamomo"
+      ],
+      "base": [
+        "Ámbar Gris",
+        "Almizcle",
+        "Pachulí",
+        "Madera a la Deriva"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Coumarin", "Linalool", "Citronellol", "Geraniol", "Alpha-Isomethyl Ionone", "Citral", "Cinnamal", "Eugenol"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Coumarin",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Alpha-Isomethyl Ionone",
+      "Citral",
+      "Cinnamal",
+      "Eugenol"
+    ],
     "rating": 4.2,
     "duracion": "Eterna",
-    "temporadas": ["Primavera", "Verano", "Otoño"]
+    "temporadas": [
+      "Primavera",
+      "Verano",
+      "Otoño"
+    ]
   },
   {
     "id": "83311",
@@ -159,20 +417,62 @@
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83311.jpg",
     "desc": "Dupe del Chanel Allure Homme Sport. Mandarina y menta fresca, cedro y pimienta, base cálida de tonka y sándalo.",
     "accords": [
-      { "name": "aromático",       "color": "#37A089", "score": 100 },
-      { "name": "amaderado",       "color": "#774414", "score": 88 },
-      { "name": "cítrico",         "color": "#D4AC0D", "score": 70 },
-      { "name": "fresco especiado","color": "#4AA8A8", "score": 60 }
+      {
+        "name": "aromático",
+        "color": "#37A089",
+        "score": 100
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 88
+      },
+      {
+        "name": "cítrico",
+        "color": "#D4AC0D",
+        "score": 70
+      },
+      {
+        "name": "fresco especiado",
+        "color": "#4AA8A8",
+        "score": 60
+      }
     ],
     "notas": {
-      "top":    ["Mandarina", "Menta", "Ciprés", "Salvia"],
-      "middle": ["Cedro", "Pimienta"],
-      "base":   ["Haba Tonka", "Almizcle", "Sándalo"]
+      "top": [
+        "Mandarina",
+        "Menta",
+        "Ciprés",
+        "Salvia"
+      ],
+      "middle": [
+        "Cedro",
+        "Pimienta"
+      ],
+      "base": [
+        "Haba Tonka",
+        "Almizcle",
+        "Sándalo"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Linalool", "Coumarin", "Citronellol", "Geraniol", "Benzyl Benzoate", "Citral"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Citronellol",
+      "Geraniol",
+      "Benzyl Benzoate",
+      "Citral"
+    ],
     "rating": 4.0,
     "duracion": "Moderada",
-    "temporadas": ["Primavera", "Verano"]
+    "temporadas": [
+      "Primavera",
+      "Verano"
+    ]
   },
   {
     "id": "64104",
@@ -184,20 +484,62 @@
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64104.jpg",
     "desc": "Dupe del Creed Millésime Impérial. Marino, limpio y elegante. Frutos rojos, notas marinas y base de almizcle y ambroxán.",
     "accords": [
-      { "name": "acuático",  "color": "#2E8FDE", "score": 100 },
-      { "name": "almizcle",  "color": "#B0A090", "score": 88 },
-      { "name": "amaderado", "color": "#774414", "score": 75 },
-      { "name": "floral",    "color": "#E87DBE", "score": 60 }
+      {
+        "name": "acuático",
+        "color": "#2E8FDE",
+        "score": 100
+      },
+      {
+        "name": "almizcle",
+        "color": "#B0A090",
+        "score": 88
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 75
+      },
+      {
+        "name": "floral",
+        "color": "#E87DBE",
+        "score": 60
+      }
     ],
     "notas": {
-      "top":    ["Notas Marinas", "Frutos Rojos", "Bergamota"],
-      "middle": ["Violeta", "Maderas Blancas", "Sándalo"],
-      "base":   ["Almizcle", "Ambroxán", "Vetiver"]
+      "top": [
+        "Notas Marinas",
+        "Frutos Rojos",
+        "Bergamota"
+      ],
+      "middle": [
+        "Violeta",
+        "Maderas Blancas",
+        "Sándalo"
+      ],
+      "base": [
+        "Almizcle",
+        "Ambroxán",
+        "Vetiver"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Linalool", "Citronellol", "Ambroxan", "Geraniol", "Citral", "Benzyl Salicylate"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Citronellol",
+      "Ambroxan",
+      "Geraniol",
+      "Citral",
+      "Benzyl Salicylate"
+    ],
     "rating": 3.9,
     "duracion": "Moderada",
-    "temporadas": ["Primavera", "Verano"]
+    "temporadas": [
+      "Primavera",
+      "Verano"
+    ]
   },
   {
     "id": "GECTIC",
@@ -209,20 +551,60 @@
     "photo": "https://via.placeholder.com/375x500/1a3a6b/7bbff0?text=Gectic",
     "desc": "Propuesta moderna y limpia, ideal para uso diario. Acordes verdes y amaderados equilibrados con notas frescas y aromáticas.",
     "accords": [
-      { "name": "amaderado",  "color": "#774414", "score": 100 },
-      { "name": "aromático",  "color": "#37A089", "score": 85 },
-      { "name": "fresco",     "color": "#2E8FDE", "score": 72 },
-      { "name": "verde",      "color": "#4CAF50", "score": 60 }
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 100
+      },
+      {
+        "name": "aromático",
+        "color": "#37A089",
+        "score": 85
+      },
+      {
+        "name": "fresco",
+        "color": "#2E8FDE",
+        "score": 72
+      },
+      {
+        "name": "verde",
+        "color": "#4CAF50",
+        "score": 60
+      }
     ],
     "notas": {
-      "top":    ["Bergamota", "Notas Verdes", "Cítricos"],
-      "middle": ["Lavanda", "Notas Aromáticas"],
-      "base":   ["Cedro", "Almizcle", "Sándalo"]
+      "top": [
+        "Bergamota",
+        "Notas Verdes",
+        "Cítricos"
+      ],
+      "middle": [
+        "Lavanda",
+        "Notas Aromáticas"
+      ],
+      "base": [
+        "Cedro",
+        "Almizcle",
+        "Sándalo"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Linalool", "Coumarin", "Citronellol", "Geraniol", "Citral"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Citronellol",
+      "Geraniol",
+      "Citral"
+    ],
     "rating": 3.6,
     "duracion": "Moderada",
-    "temporadas": ["Primavera", "Verano"]
+    "temporadas": [
+      "Primavera",
+      "Verano"
+    ]
   },
   {
     "id": "SHIAKASHADO",
@@ -234,20 +616,64 @@
     "photo": "https://via.placeholder.com/375x500/1a3a6b/7bbff0?text=Shiakashado",
     "desc": "Oriental rico en especias cálidas, resinas y maderas lujosas. Para noches de otoño e invierno.",
     "accords": [
-      { "name": "oriental",        "color": "#BC4D10", "score": 100 },
-      { "name": "especiado cálido","color": "#CC3300", "score": 92 },
-      { "name": "amaderado",       "color": "#774414", "score": 80 },
-      { "name": "balsámico",       "color": "#AD8359", "score": 65 }
+      {
+        "name": "oriental",
+        "color": "#BC4D10",
+        "score": 100
+      },
+      {
+        "name": "especiado cálido",
+        "color": "#CC3300",
+        "score": 92
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 80
+      },
+      {
+        "name": "balsámico",
+        "color": "#AD8359",
+        "score": 65
+      }
     ],
     "notas": {
-      "top":    ["Especias", "Canela", "Azafrán"],
-      "middle": ["Rosa", "Oud", "Resinas"],
-      "base":   ["Ámbar", "Almizcle", "Sándalo", "Pachulí"]
+      "top": [
+        "Especias",
+        "Canela",
+        "Azafrán"
+      ],
+      "middle": [
+        "Rosa",
+        "Oud",
+        "Resinas"
+      ],
+      "base": [
+        "Ámbar",
+        "Almizcle",
+        "Sándalo",
+        "Pachulí"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Linalool", "Coumarin", "Cinnamal", "Eugenol", "Isoeugenol", "Benzyl Benzoate", "Citral"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Cinnamal",
+      "Eugenol",
+      "Isoeugenol",
+      "Benzyl Benzoate",
+      "Citral"
+    ],
     "rating": 3.8,
     "duracion": "Eterna",
-    "temporadas": ["Otoño", "Invierno"]
+    "temporadas": [
+      "Otoño",
+      "Invierno"
+    ]
   },
   {
     "id": "34696",
@@ -259,20 +685,67 @@
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.34696.jpg",
     "desc": "El dupe árabe más famoso del Creed Aventus. Piña ahumada, abedul y almizcle. Compliment machine garantizado para cualquier ocasión.",
     "accords": [
-      { "name": "frutal",    "color": "#FC4B29", "score": 100 },
-      { "name": "amaderado", "color": "#774414", "score": 88 },
-      { "name": "ahumado",   "color": "#555555", "score": 80 },
-      { "name": "especiado", "color": "#CC3300", "score": 65 }
+      {
+        "name": "frutal",
+        "color": "#FC4B29",
+        "score": 100
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 88
+      },
+      {
+        "name": "ahumado",
+        "color": "#555555",
+        "score": 80
+      },
+      {
+        "name": "especiado",
+        "color": "#CC3300",
+        "score": 65
+      }
     ],
     "notas": {
-      "top":    ["Limón", "Piña", "Bergamota", "Grosella Negra", "Manzana"],
-      "middle": ["Abedul", "Jazmín", "Rosa"],
-      "base":   ["Ámbar Gris", "Almizcle", "Pachulí", "Vainilla"]
+      "top": [
+        "Limón",
+        "Piña",
+        "Bergamota",
+        "Grosella Negra",
+        "Manzana"
+      ],
+      "middle": [
+        "Abedul",
+        "Jazmín",
+        "Rosa"
+      ],
+      "base": [
+        "Ámbar Gris",
+        "Almizcle",
+        "Pachulí",
+        "Vainilla"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Linalool", "Coumarin", "Citronellol", "Geraniol", "Alpha-Isomethyl Ionone", "Citral", "Benzyl Benzoate"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Citronellol",
+      "Geraniol",
+      "Alpha-Isomethyl Ionone",
+      "Citral",
+      "Benzyl Benzoate"
+    ],
     "rating": 4.1,
     "duracion": "Larga",
-    "temporadas": ["Primavera", "Verano", "Otoño"]
+    "temporadas": [
+      "Primavera",
+      "Verano",
+      "Otoño"
+    ]
   },
   {
     "id": "75805",
@@ -284,20 +757,65 @@
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.75805.jpg",
     "desc": "Dupe del Angels Share de Kilian. El gourmand oriental árabe más famoso. Cognac, canela y vainilla con praline y sándalo. Beast mode total para noches.",
     "accords": [
-      { "name": "especiado cálido","color": "#CC3300", "score": 100 },
-      { "name": "gourmand",        "color": "#DDA356", "score": 95 },
-      { "name": "amaderado",       "color": "#774414", "score": 80 },
-      { "name": "oriental",        "color": "#BC4D10", "score": 75 }
+      {
+        "name": "especiado cálido",
+        "color": "#CC3300",
+        "score": 100
+      },
+      {
+        "name": "gourmand",
+        "color": "#DDA356",
+        "score": 95
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 80
+      },
+      {
+        "name": "oriental",
+        "color": "#BC4D10",
+        "score": 75
+      }
     ],
     "notas": {
-      "top":    ["Cognac", "Canela", "Bergamota", "Salvia"],
-      "middle": ["Haba Tonka", "Canela", "Roble"],
-      "base":   ["Vainilla", "Praline", "Sándalo", "Almizcle"]
+      "top": [
+        "Cognac",
+        "Canela",
+        "Bergamota",
+        "Salvia"
+      ],
+      "middle": [
+        "Haba Tonka",
+        "Canela",
+        "Roble"
+      ],
+      "base": [
+        "Vainilla",
+        "Praline",
+        "Sándalo",
+        "Almizcle"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Linalool", "Coumarin", "Cinnamal", "Benzyl Benzoate", "Eugenol", "Citral", "Isoeugenol"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Cinnamal",
+      "Benzyl Benzoate",
+      "Eugenol",
+      "Citral",
+      "Isoeugenol"
+    ],
     "rating": 4.3,
     "duracion": "Eterna",
-    "temporadas": ["Otoño", "Invierno"]
+    "temporadas": [
+      "Otoño",
+      "Invierno"
+    ]
   },
   {
     "id": "88175",
@@ -309,20 +827,64 @@
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.88175.jpg",
     "desc": "La versión café del Khamrah. Cardamomo, canela y jengibre con café, praline y vainilla. Irresistible para noches de otoño-invierno.",
     "accords": [
-      { "name": "especiado cálido","color": "#CC3300", "score": 100 },
-      { "name": "café",            "color": "#6B3A2A", "score": 90 },
-      { "name": "gourmand",        "color": "#DDA356", "score": 85 },
-      { "name": "oriental",        "color": "#BC4D10", "score": 75 }
+      {
+        "name": "especiado cálido",
+        "color": "#CC3300",
+        "score": 100
+      },
+      {
+        "name": "café",
+        "color": "#6B3A2A",
+        "score": 90
+      },
+      {
+        "name": "gourmand",
+        "color": "#DDA356",
+        "score": 85
+      },
+      {
+        "name": "oriental",
+        "color": "#BC4D10",
+        "score": 75
+      }
     ],
     "notas": {
-      "top":    ["Canela", "Cardamomo", "Jengibre"],
-      "middle": ["Praline", "Frutas Confitadas", "Flores Blancas"],
-      "base":   ["Vainilla", "Café", "Haba Tonka", "Almizcle"]
+      "top": [
+        "Canela",
+        "Cardamomo",
+        "Jengibre"
+      ],
+      "middle": [
+        "Praline",
+        "Frutas Confitadas",
+        "Flores Blancas"
+      ],
+      "base": [
+        "Vainilla",
+        "Café",
+        "Haba Tonka",
+        "Almizcle"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Linalool", "Coumarin", "Cinnamal", "Benzyl Benzoate", "Eugenol", "Citral", "Benzoin"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Cinnamal",
+      "Benzyl Benzoate",
+      "Eugenol",
+      "Citral",
+      "Benzoin"
+    ],
     "rating": 4.4,
     "duracion": "Eterna",
-    "temporadas": ["Otoño", "Invierno"]
+    "temporadas": [
+      "Otoño",
+      "Invierno"
+    ]
   },
   {
     "id": "72821",
@@ -334,20 +896,67 @@
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72821.jpg",
     "desc": "Dupe del Dior Sauvage Elixir. Especiado oscuro con cuero, oud y vainilla. Para noches y eventos formales. Beast mode total.",
     "accords": [
-      { "name": "especiado cálido","color": "#CC3300", "score": 100 },
-      { "name": "amaderado",       "color": "#774414", "score": 88 },
-      { "name": "cuero",           "color": "#8B4513", "score": 78 },
-      { "name": "oriental",        "color": "#BC4D10", "score": 70 }
+      {
+        "name": "especiado cálido",
+        "color": "#CC3300",
+        "score": 100
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 88
+      },
+      {
+        "name": "cuero",
+        "color": "#8B4513",
+        "score": 78
+      },
+      {
+        "name": "oriental",
+        "color": "#BC4D10",
+        "score": 70
+      }
     ],
     "notas": {
-      "top":    ["Naranja", "Limón", "Bergamota"],
-      "middle": ["Cardamomo", "Canela", "Rosa", "Jazmín"],
-      "base":   ["Ámbar", "Almizcle", "Madera de Oud", "Vainilla", "Cuero"]
+      "top": [
+        "Naranja",
+        "Limón",
+        "Bergamota"
+      ],
+      "middle": [
+        "Cardamomo",
+        "Canela",
+        "Rosa",
+        "Jazmín"
+      ],
+      "base": [
+        "Ámbar",
+        "Almizcle",
+        "Madera de Oud",
+        "Vainilla",
+        "Cuero"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Linalool", "Coumarin", "Cinnamal", "Eugenol", "Isoeugenol", "Benzyl Benzoate", "Citral", "Geraniol"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Cinnamal",
+      "Eugenol",
+      "Isoeugenol",
+      "Benzyl Benzoate",
+      "Citral",
+      "Geraniol"
+    ],
     "rating": 4.2,
     "duracion": "Eterna",
-    "temporadas": ["Otoño", "Invierno"]
+    "temporadas": [
+      "Otoño",
+      "Invierno"
+    ]
   },
   {
     "id": "67996",
@@ -359,20 +968,66 @@
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.67996.jpg",
     "desc": "Frutal y maderado beast. Dupe económico del Aventus. Piña explosiva, bayas silvestres, abedul negro y base amaderada.",
     "accords": [
-      { "name": "frutal",    "color": "#FC4B29", "score": 100 },
-      { "name": "amaderado", "color": "#774414", "score": 85 },
-      { "name": "especiado", "color": "#CC3300", "score": 72 },
-      { "name": "floral",    "color": "#E87DBE", "score": 60 }
+      {
+        "name": "frutal",
+        "color": "#FC4B29",
+        "score": 100
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 85
+      },
+      {
+        "name": "especiado",
+        "color": "#CC3300",
+        "score": 72
+      },
+      {
+        "name": "floral",
+        "color": "#E87DBE",
+        "score": 60
+      }
     ],
     "notas": {
-      "top":    ["Piña", "Bayas Silvestres", "Bergamota", "Manzana"],
-      "middle": ["Abedul Negro", "Pachulí", "Jazmín", "Rosa"],
-      "base":   ["Almizcle", "Ámbar Gris", "Musgo de Roble", "Vainilla"]
+      "top": [
+        "Piña",
+        "Bayas Silvestres",
+        "Bergamota",
+        "Manzana"
+      ],
+      "middle": [
+        "Abedul Negro",
+        "Pachulí",
+        "Jazmín",
+        "Rosa"
+      ],
+      "base": [
+        "Almizcle",
+        "Ámbar Gris",
+        "Musgo de Roble",
+        "Vainilla"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Linalool", "Coumarin", "Citronellol", "Geraniol", "Alpha-Isomethyl Ionone", "Citral", "Benzyl Benzoate"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Citronellol",
+      "Geraniol",
+      "Alpha-Isomethyl Ionone",
+      "Citral",
+      "Benzyl Benzoate"
+    ],
     "rating": 3.9,
     "duracion": "Larga",
-    "temporadas": ["Primavera", "Verano"]
+    "temporadas": [
+      "Primavera",
+      "Verano"
+    ]
   },
   {
     "id": "3747",
@@ -384,20 +1039,64 @@
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3747.jpg",
     "desc": "Icónico diseñador. El más vendido en su época. Especiado cálido con cuero, toronja y canela. Para salidas nocturnas y eventos formales.",
     "accords": [
-      { "name": "especiado", "color": "#CC3300", "score": 100 },
-      { "name": "cuero",     "color": "#8B4513", "score": 88 },
-      { "name": "amaderado", "color": "#774414", "score": 80 },
-      { "name": "cítrico",   "color": "#D4AC0D", "score": 70 }
+      {
+        "name": "especiado",
+        "color": "#CC3300",
+        "score": 100
+      },
+      {
+        "name": "cuero",
+        "color": "#8B4513",
+        "score": 88
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 80
+      },
+      {
+        "name": "cítrico",
+        "color": "#D4AC0D",
+        "score": 70
+      }
     ],
     "notas": {
-      "top":    ["Toronja", "Menta", "Sangre de Buey"],
-      "middle": ["Rosa", "Canela", "Especias"],
-      "base":   ["Cuero", "Madera de Ámbar", "Pachulí"]
+      "top": [
+        "Toronja",
+        "Menta",
+        "Sangre de Buey"
+      ],
+      "middle": [
+        "Rosa",
+        "Canela",
+        "Especias"
+      ],
+      "base": [
+        "Cuero",
+        "Madera de Ámbar",
+        "Pachulí"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Linalool", "Coumarin", "Cinnamal", "Citronellol", "Geraniol", "Eugenol", "Alpha-Isomethyl Ionone", "Citral"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Cinnamal",
+      "Citronellol",
+      "Geraniol",
+      "Eugenol",
+      "Alpha-Isomethyl Ionone",
+      "Citral"
+    ],
     "rating": 4.0,
     "duracion": "Larga",
-    "temporadas": ["Otoño", "Invierno"]
+    "temporadas": [
+      "Otoño",
+      "Invierno"
+    ]
   },
   {
     "id": "16657",
@@ -409,20 +1108,65 @@
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.16657.jpg",
     "desc": "El diseñador fresco-dulce más clonado. Menta vibrante, manzana verde y haba tonka con base de cedro y vainilla. Funciona en todas las estaciones.",
     "accords": [
-      { "name": "menta",     "color": "#37A089", "score": 100 },
-      { "name": "amaderado", "color": "#774414", "score": 88 },
-      { "name": "dulce",     "color": "#EE363B", "score": 80 },
-      { "name": "especiado", "color": "#CC3300", "score": 72 }
+      {
+        "name": "menta",
+        "color": "#37A089",
+        "score": 100
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 88
+      },
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 80
+      },
+      {
+        "name": "especiado",
+        "color": "#CC3300",
+        "score": 72
+      }
     ],
     "notas": {
-      "top":    ["Menta", "Manzana Verde", "Limón"],
-      "middle": ["Haba Tonka", "Geranio", "Ambroxán"],
-      "base":   ["Cedro de Atlas", "Vetiver", "Roble", "Vainilla"]
+      "top": [
+        "Menta",
+        "Manzana Verde",
+        "Limón"
+      ],
+      "middle": [
+        "Haba Tonka",
+        "Geranio",
+        "Ambroxán"
+      ],
+      "base": [
+        "Cedro de Atlas",
+        "Vetiver",
+        "Roble",
+        "Vainilla"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Linalool", "Coumarin", "Citronellol", "Geraniol", "Alpha-Isomethyl Ionone", "Citral", "Benzyl Salicylate"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Citronellol",
+      "Geraniol",
+      "Alpha-Isomethyl Ionone",
+      "Citral",
+      "Benzyl Salicylate"
+    ],
     "rating": 3.9,
     "duracion": "Larga",
-    "temporadas": ["Primavera", "Verano", "Otoño"]
+    "temporadas": [
+      "Primavera",
+      "Verano",
+      "Otoño"
+    ]
   },
   {
     "id": "430",
@@ -434,19 +1178,345 @@
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.430.jpg",
     "desc": "Clásico absoluto de diseñador. El masculino más reconocible del mundo. Lavanda, menta y vainilla para citas y noches especiales.",
     "accords": [
-      { "name": "lavanda",   "color": "#9B59B6", "score": 100 },
-      { "name": "menta",     "color": "#37A089", "score": 92 },
-      { "name": "vainilla",  "color": "#DDA356", "score": 85 },
-      { "name": "amaderado", "color": "#774414", "score": 70 }
+      {
+        "name": "lavanda",
+        "color": "#9B59B6",
+        "score": 100
+      },
+      {
+        "name": "menta",
+        "color": "#37A089",
+        "score": 92
+      },
+      {
+        "name": "vainilla",
+        "color": "#DDA356",
+        "score": 85
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 70
+      }
     ],
     "notas": {
-      "top":    ["Menta", "Lavanda", "Cardamomo"],
-      "middle": ["Canela", "Comino", "Flor de Naranja"],
-      "base":   ["Almizcle", "Vainilla", "Ámbar", "Sándalo"]
+      "top": [
+        "Menta",
+        "Lavanda",
+        "Cardamomo"
+      ],
+      "middle": [
+        "Canela",
+        "Comino",
+        "Flor de Naranja"
+      ],
+      "base": [
+        "Almizcle",
+        "Vainilla",
+        "Ámbar",
+        "Sándalo"
+      ]
     },
-    "ingredientes": ["Alcohol Denat.", "Parfum", "Aqua", "Limonene", "Linalool", "Coumarin", "Cinnamal", "Citronellol", "Geraniol", "Eugenol", "Benzyl Benzoate", "Citral"],
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Cinnamal",
+      "Citronellol",
+      "Geraniol",
+      "Eugenol",
+      "Benzyl Benzoate",
+      "Citral"
+    ],
     "rating": 4.1,
     "duracion": "Larga",
-    "temporadas": ["Otoño", "Invierno"]
+    "temporadas": [
+      "Otoño",
+      "Invierno"
+    ]
+  },
+  {
+    "id": "65414",
+    "brand": "Afnan",
+    "name": "9PM",
+    "year": 2020,
+    "precio": 1100,
+    "en_stock": true,
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65414.jpg",
+    "desc": "Dupe del JPG Ultra Male. El arabe gourmand mas popular del mundo. Manzana, canela y lavanda con vainilla, tonka y ambar. Compliment machine absoluto para noches.",
+    "accords": [
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 100
+      },
+      {
+        "name": "gourmand",
+        "color": "#DDA356",
+        "score": 92
+      },
+      {
+        "name": "especiado calido",
+        "color": "#CC3300",
+        "score": 80
+      },
+      {
+        "name": "oriental",
+        "color": "#BC4D10",
+        "score": 70
+      }
+    ],
+    "notas": {
+      "top": [
+        "Manzana",
+        "Canela",
+        "Lavanda Silvestre",
+        "Bergamota"
+      ],
+      "middle": [
+        "Azahar",
+        "Lirio de los Valles"
+      ],
+      "base": [
+        "Vainilla",
+        "Haba Tonka",
+        "Ambar",
+        "Pachuli"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Cinnamal",
+      "Benzyl Benzoate",
+      "Eugenol",
+      "Citral"
+    ],
+    "rating": 4.2,
+    "duracion": "Larga",
+    "temporadas": [
+      "Otono",
+      "Invierno"
+    ]
+  },
+  {
+    "id": "78544",
+    "brand": "Afnan",
+    "name": "9PM pour Femme",
+    "year": 2022,
+    "precio": 1100,
+    "en_stock": true,
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78544.jpg",
+    "desc": "Version femenina del iconic 9PM. Frutal floral oriental. Frambuesa, violeta y manzana con rosa, peonia e iris, base de ambar y cedro. Para noches y eventos.",
+    "accords": [
+      {
+        "name": "floral",
+        "color": "#E87DBE",
+        "score": 100
+      },
+      {
+        "name": "frutal",
+        "color": "#FC4B29",
+        "score": 88
+      },
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 78
+      },
+      {
+        "name": "oriental",
+        "color": "#BC4D10",
+        "score": 65
+      }
+    ],
+    "notas": {
+      "top": [
+        "Frambuesa",
+        "Violeta",
+        "Manzana",
+        "Naranja"
+      ],
+      "middle": [
+        "Rosa",
+        "Peonia",
+        "Iris",
+        "Jazmin"
+      ],
+      "base": [
+        "Cipres",
+        "Pino",
+        "Ambar",
+        "Cedro"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Alpha-Isomethyl Ionone",
+      "Citral",
+      "Benzyl Salicylate",
+      "Eugenol"
+    ],
+    "rating": 3.9,
+    "duracion": "Larga",
+    "temporadas": [
+      "Otono",
+      "Invierno"
+    ]
+  },
+  {
+    "id": "99238",
+    "brand": "Afnan",
+    "name": "9PM Rebel",
+    "year": 2024,
+    "precio": 1200,
+    "en_stock": true,
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.99238.jpg",
+    "desc": "Dupe del Creed Aventus dulce. Pina, manzana Granny Smith y mandarina con musgo de roble y cedro, base de caramelo y ambar gris. Beast mode frutal-amaderado.",
+    "accords": [
+      {
+        "name": "frutal",
+        "color": "#FC4B29",
+        "score": 100
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 85
+      },
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 78
+      },
+      {
+        "name": "ahumado",
+        "color": "#555555",
+        "score": 60
+      }
+    ],
+    "notas": {
+      "top": [
+        "Pina",
+        "Manzana Granny Smith",
+        "Mandarina"
+      ],
+      "middle": [
+        "Musgo de Roble",
+        "Cedro",
+        "Vainilla"
+      ],
+      "base": [
+        "Madera Seca",
+        "Ambar Gris",
+        "Caramelo",
+        "Almizcle"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Citronellol",
+      "Geraniol",
+      "Alpha-Isomethyl Ionone",
+      "Citral",
+      "Benzyl Benzoate"
+    ],
+    "rating": 4.1,
+    "duracion": "Eterna",
+    "temporadas": [
+      "Otono",
+      "Invierno",
+      "Primavera"
+    ]
+  },
+  {
+    "id": "111894",
+    "brand": "Afnan",
+    "name": "9PM Elixir",
+    "year": 2025,
+    "precio": 1350,
+    "en_stock": true,
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.111894.jpg",
+    "desc": "El mejor de la linea 9PM segun fans. Version intensificada y mas oscura del original. Gourmand oriental con proyeccion brutal. Para noches de otono-invierno.",
+    "accords": [
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 100
+      },
+      {
+        "name": "gourmand",
+        "color": "#DDA356",
+        "score": 95
+      },
+      {
+        "name": "especiado calido",
+        "color": "#CC3300",
+        "score": 85
+      },
+      {
+        "name": "oriental",
+        "color": "#BC4D10",
+        "score": 78
+      }
+    ],
+    "notas": {
+      "top": [
+        "Manzana",
+        "Bergamota",
+        "Canela",
+        "Lavanda"
+      ],
+      "middle": [
+        "Azahar",
+        "Lirio de los Valles",
+        "Especias"
+      ],
+      "base": [
+        "Vainilla",
+        "Haba Tonka",
+        "Ambar",
+        "Pachuli",
+        "Almizcle"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Cinnamal",
+      "Benzyl Benzoate",
+      "Eugenol",
+      "Citral",
+      "Isoeugenol",
+      "Benzyl Alcohol"
+    ],
+    "rating": 4.4,
+    "duracion": "Eterna",
+    "temporadas": [
+      "Otono",
+      "Invierno"
+    ]
   }
 ]
