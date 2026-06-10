@@ -62,7 +62,8 @@
     "temporadas": [
       "Primavera",
       "Verano"
-    ]
+    ],
+    "categoria": "calor"
   },
   {
     "id": "89050",
@@ -132,7 +133,8 @@
     "temporadas": [
       "Primavera",
       "Verano"
-    ]
+    ],
+    "categoria": "calor"
   },
   {
     "id": "83132",
@@ -200,7 +202,8 @@
     "temporadas": [
       "Otoño",
       "Invierno"
-    ]
+    ],
+    "categoria": "noche"
   },
   {
     "id": "85096",
@@ -266,7 +269,8 @@
     "temporadas": [
       "Primavera",
       "Verano"
-    ]
+    ],
+    "categoria": "calor"
   },
   {
     "id": "70839",
@@ -332,7 +336,8 @@
     "temporadas": [
       "Primavera",
       "Verano"
-    ]
+    ],
+    "categoria": "calor"
   },
   {
     "id": "46890",
@@ -405,7 +410,8 @@
       "Primavera",
       "Verano",
       "Otoño"
-    ]
+    ],
+    "categoria": "versatil"
   },
   {
     "id": "83311",
@@ -472,7 +478,8 @@
     "temporadas": [
       "Primavera",
       "Verano"
-    ]
+    ],
+    "categoria": "calor"
   },
   {
     "id": "64104",
@@ -539,7 +546,8 @@
     "temporadas": [
       "Primavera",
       "Verano"
-    ]
+    ],
+    "categoria": "versatil"
   },
   {
     "id": "GECTIC",
@@ -604,7 +612,8 @@
     "temporadas": [
       "Primavera",
       "Verano"
-    ]
+    ],
+    "categoria": "diario"
   },
   {
     "id": "SHIAKASHADO",
@@ -673,7 +682,8 @@
     "temporadas": [
       "Otoño",
       "Invierno"
-    ]
+    ],
+    "categoria": "noche"
   },
   {
     "id": "34696",
@@ -745,7 +755,8 @@
       "Primavera",
       "Verano",
       "Otoño"
-    ]
+    ],
+    "categoria": "versatil"
   },
   {
     "id": "75805",
@@ -815,7 +826,8 @@
     "temporadas": [
       "Otoño",
       "Invierno"
-    ]
+    ],
+    "categoria": "noche"
   },
   {
     "id": "88175",
@@ -884,7 +896,8 @@
     "temporadas": [
       "Otoño",
       "Invierno"
-    ]
+    ],
+    "categoria": "noche"
   },
   {
     "id": "72821",
@@ -956,7 +969,8 @@
     "temporadas": [
       "Otoño",
       "Invierno"
-    ]
+    ],
+    "categoria": "noche"
   },
   {
     "id": "67996",
@@ -1027,7 +1041,8 @@
     "temporadas": [
       "Primavera",
       "Verano"
-    ]
+    ],
+    "categoria": "calor"
   },
   {
     "id": "3747",
@@ -1035,7 +1050,7 @@
     "name": "1 Million",
     "year": 2008,
     "precio": 2800,
-    "en_stock": false,
+    "en_stock": true,
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3747.jpg",
     "desc": "Icónico diseñador. El más vendido en su época. Especiado cálido con cuero, toronja y canela. Para salidas nocturnas y eventos formales.",
     "accords": [
@@ -1096,7 +1111,8 @@
     "temporadas": [
       "Otoño",
       "Invierno"
-    ]
+    ],
+    "categoria": "noche"
   },
   {
     "id": "16657",
@@ -1104,7 +1120,7 @@
     "name": "Eros",
     "year": 2012,
     "precio": 3200,
-    "en_stock": false,
+    "en_stock": true,
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.16657.jpg",
     "desc": "El diseñador fresco-dulce más clonado. Menta vibrante, manzana verde y haba tonka con base de cedro y vainilla. Funciona en todas las estaciones.",
     "accords": [
@@ -1166,7 +1182,8 @@
       "Primavera",
       "Verano",
       "Otoño"
-    ]
+    ],
+    "categoria": "versatil"
   },
   {
     "id": "430",
@@ -1174,7 +1191,7 @@
     "name": "Le Male",
     "year": 1995,
     "precio": 2500,
-    "en_stock": false,
+    "en_stock": true,
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.430.jpg",
     "desc": "Clásico absoluto de diseñador. El masculino más reconocible del mundo. Lavanda, menta y vainilla para citas y noches especiales.",
     "accords": [
@@ -1236,7 +1253,8 @@
     "temporadas": [
       "Otoño",
       "Invierno"
-    ]
+    ],
+    "categoria": "noche"
   },
   {
     "id": "65414",
@@ -1304,7 +1322,8 @@
     "temporadas": [
       "Otono",
       "Invierno"
-    ]
+    ],
+    "categoria": "noche"
   },
   {
     "id": "78544",
@@ -1312,7 +1331,7 @@
     "name": "9PM pour Femme",
     "year": 2022,
     "precio": 1100,
-    "en_stock": false,
+    "en_stock": true,
     "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78544.jpg",
     "desc": "Version femenina del iconic 9PM. Frutal floral oriental. Frambuesa, violeta y manzana con rosa, peonia e iris, base de ambar y cedro. Para noches y eventos.",
     "accords": [
@@ -1375,7 +1394,8 @@
     "temporadas": [
       "Otono",
       "Invierno"
-    ]
+    ],
+    "categoria": "noche"
   },
   {
     "id": "99238",
@@ -1445,7 +1465,8 @@
       "Otono",
       "Invierno",
       "Primavera"
-    ]
+    ],
+    "categoria": "versatil"
   },
   {
     "id": "111894",
@@ -1517,6 +1538,626 @@
     "temporadas": [
       "Otono",
       "Invierno"
+    ],
+    "categoria": "noche"
+  },
+  {
+    "id": "72842",
+    "brand": "Armaf",
+    "name": "Club de Nuit Intense Man Parfum",
+    "year": 2022,
+    "precio": 1600,
+    "en_stock": true,
+    "categoria": "noche",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72842.jpg",
+    "desc": "Version Parfum del legendario CDNI. Aventus mas suave, ahumado y profundo. Pina, abedul y ambar gris. Proyeccion brutal, dura todo el dia.",
+    "accords": [
+      {
+        "name": "frutal",
+        "color": "#FC4B29",
+        "score": 100
+      },
+      {
+        "name": "ahumado",
+        "color": "#555555",
+        "score": 88
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 80
+      },
+      {
+        "name": "almizcle",
+        "color": "#B0A090",
+        "score": 65
+      }
+    ],
+    "notas": {
+      "top": [
+        "Limon",
+        "Pina",
+        "Bergamota",
+        "Grosella Negra",
+        "Manzana"
+      ],
+      "middle": [
+        "Abedul",
+        "Jazmin",
+        "Rosa"
+      ],
+      "base": [
+        "Ambar Gris",
+        "Almizcle",
+        "Pachuli",
+        "Vainilla"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Citronellol",
+      "Geraniol",
+      "Citral",
+      "Benzyl Benzoate"
+    ],
+    "rating": 4.2,
+    "duracion": "Eterna",
+    "temporadas": [
+      "Todo el ano"
+    ]
+  },
+  {
+    "id": "64464",
+    "brand": "Armaf",
+    "name": "Odyssey Homme",
+    "year": 2019,
+    "precio": 1050,
+    "en_stock": true,
+    "categoria": "diario",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64464.jpg",
+    "desc": "Dupe del Spicebomb. Oriental cremoso con cardamomo, mandarina y neroli. Corazon de azahar y rosa, base de vainilla y sandalo. Versatil todo el ano.",
+    "accords": [
+      {
+        "name": "especiado",
+        "color": "#CC3300",
+        "score": 100
+      },
+      {
+        "name": "oriental",
+        "color": "#BC4D10",
+        "score": 88
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 75
+      },
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 65
+      }
+    ],
+    "notas": {
+      "top": [
+        "Cardamomo",
+        "Mandarina",
+        "Neroli"
+      ],
+      "middle": [
+        "Azahar",
+        "Rosa"
+      ],
+      "base": [
+        "Vainilla",
+        "Sandalo",
+        "Notas Amaderadas",
+        "Ambar"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Eugenol",
+      "Citronellol",
+      "Geraniol",
+      "Citral"
+    ],
+    "rating": 4.0,
+    "duracion": "Larga",
+    "temporadas": [
+      "Otono",
+      "Invierno"
+    ]
+  },
+  {
+    "id": "83133",
+    "brand": "Armaf",
+    "name": "Odyssey Mega Man",
+    "year": 2023,
+    "precio": 1000,
+    "en_stock": true,
+    "categoria": "calor",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83133.jpg",
+    "desc": "Fresco citrico aromatico para calor. Naranja, bergamota y menta con pina y salvia. Base de almizcle y cedro. Diario perfecto para primavera y verano.",
+    "accords": [
+      {
+        "name": "citrico",
+        "color": "#D4AC0D",
+        "score": 100
+      },
+      {
+        "name": "aromatico",
+        "color": "#37A089",
+        "score": 85
+      },
+      {
+        "name": "frutal",
+        "color": "#FC4B29",
+        "score": 72
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 58
+      }
+    ],
+    "notas": {
+      "top": [
+        "Naranja",
+        "Bergamota",
+        "Limon",
+        "Jengibre",
+        "Menta"
+      ],
+      "middle": [
+        "Pina",
+        "Salvia",
+        "Enebro",
+        "Geranio"
+      ],
+      "base": [
+        "Almizcle",
+        "Cedro",
+        "Haba Tonka",
+        "Vetiver"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Citronellol",
+      "Geraniol",
+      "Citral",
+      "Benzyl Salicylate"
+    ],
+    "rating": 3.8,
+    "duracion": "Moderada",
+    "temporadas": [
+      "Primavera",
+      "Verano"
+    ]
+  },
+  {
+    "id": "83136",
+    "brand": "Armaf",
+    "name": "Odyssey Aoud",
+    "year": 2023,
+    "precio": 1150,
+    "en_stock": true,
+    "categoria": "noche",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83136.jpg",
+    "desc": "Oud amaderado oscuro. Azafran, nuez moscada y lavanda con oud y notas amaderadas. Base de ambroxan y almizcle. Para noches y clima frio.",
+    "accords": [
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 100
+      },
+      {
+        "name": "oud",
+        "color": "#8B4513",
+        "score": 90
+      },
+      {
+        "name": "especiado",
+        "color": "#CC3300",
+        "score": 78
+      },
+      {
+        "name": "almizcle",
+        "color": "#B0A090",
+        "score": 60
+      }
+    ],
+    "notas": {
+      "top": [
+        "Azafran",
+        "Nuez Moscada",
+        "Lavanda"
+      ],
+      "middle": [
+        "Oud",
+        "Notas Amaderadas"
+      ],
+      "base": [
+        "Ambroxan",
+        "Almizcle",
+        "Pachuli"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Eugenol",
+      "Cinnamal",
+      "Benzyl Benzoate",
+      "Citral",
+      "Iso E Super"
+    ],
+    "rating": 3.7,
+    "duracion": "Larga",
+    "temporadas": [
+      "Otono",
+      "Invierno"
+    ]
+  },
+  {
+    "id": "106710",
+    "brand": "Armaf",
+    "name": "Odyssey Artisto",
+    "year": 2025,
+    "precio": 1250,
+    "en_stock": true,
+    "categoria": "versatil",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106710.jpg",
+    "desc": "Hijo de Le Beau, 1 Million y BR 540. Bergamota y salvia, coco y frutas tropicales con canela, vainilla y ambar. Fresco-dulce unisex espectacular.",
+    "accords": [
+      {
+        "name": "frutal",
+        "color": "#FC4B29",
+        "score": 100
+      },
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 90
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 78
+      },
+      {
+        "name": "citrico",
+        "color": "#D4AC0D",
+        "score": 65
+      }
+    ],
+    "notas": {
+      "top": [
+        "Bergamota",
+        "Notas Nueces",
+        "Salvia"
+      ],
+      "middle": [
+        "Coco",
+        "Frutas Tropicales",
+        "Canela"
+      ],
+      "base": [
+        "Vainilla",
+        "Ambar",
+        "Haba Tonka"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Cinnamal",
+      "Benzyl Benzoate",
+      "Geraniol",
+      "Citral"
+    ],
+    "rating": 4.3,
+    "duracion": "Larga",
+    "temporadas": [
+      "Primavera",
+      "Verano",
+      "Otono"
+    ]
+  },
+  {
+    "id": "96817",
+    "brand": "Rasasi",
+    "name": "Hawas Black",
+    "year": 2024,
+    "precio": 1400,
+    "en_stock": true,
+    "categoria": "noche",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.96817.jpg",
+    "desc": "Dupe del Nishane Hacivat / Creed Aventus oscuro. Pina, bergamota y toronja con pachuli y cedro. Base de musgo de roble y ambar. Formal y masculino.",
+    "accords": [
+      {
+        "name": "frutal",
+        "color": "#FC4B29",
+        "score": 100
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 88
+      },
+      {
+        "name": "ahumado",
+        "color": "#555555",
+        "score": 75
+      },
+      {
+        "name": "aromatico",
+        "color": "#37A089",
+        "score": 62
+      }
+    ],
+    "notas": {
+      "top": [
+        "Bergamota",
+        "Pina",
+        "Toronja"
+      ],
+      "middle": [
+        "Pachuli",
+        "Cedro",
+        "Jazmin"
+      ],
+      "base": [
+        "Musgo de Roble",
+        "Notas Amaderadas",
+        "Ambar"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Citronellol",
+      "Geraniol",
+      "Citral",
+      "Benzyl Benzoate",
+      "Alpha-Isomethyl Ionone"
+    ],
+    "rating": 4.1,
+    "duracion": "Larga",
+    "temporadas": [
+      "Otono",
+      "Invierno",
+      "Primavera"
+    ]
+  },
+  {
+    "id": "110808",
+    "brand": "Rasasi",
+    "name": "Hawas Elixir",
+    "year": 2024,
+    "precio": 1450,
+    "en_stock": true,
+    "categoria": "noche",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.110808.jpg",
+    "desc": "Dupe del JPG Le Male Elixir (85% similitud). Menta mentolada, vainilla y lavanda. Bestia nocturna dulce-fresca que dura toda la noche. Compliment monster.",
+    "accords": [
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 100
+      },
+      {
+        "name": "menta",
+        "color": "#37A089",
+        "score": 92
+      },
+      {
+        "name": "lavanda",
+        "color": "#9B59B6",
+        "score": 80
+      },
+      {
+        "name": "vainilla",
+        "color": "#DDA356",
+        "score": 70
+      }
+    ],
+    "notas": {
+      "top": [
+        "Menta",
+        "Lavanda",
+        "Especias"
+      ],
+      "middle": [
+        "Canela",
+        "Jazmin",
+        "Iris"
+      ],
+      "base": [
+        "Vainilla",
+        "Almizcle",
+        "Madera",
+        "Benzoin"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Cinnamal",
+      "Eugenol",
+      "Citral",
+      "Benzyl Benzoate",
+      "Isoeugenol"
+    ],
+    "rating": 4.3,
+    "duracion": "Eterna",
+    "temporadas": [
+      "Otono",
+      "Invierno"
+    ]
+  },
+  {
+    "id": "108054",
+    "brand": "Rasasi",
+    "name": "Hawas Tropical",
+    "year": 2025,
+    "precio": 1350,
+    "en_stock": true,
+    "categoria": "calor",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.108054.jpg",
+    "desc": "Pina colada tropical beast. Hoja de higo, agua de coco y jengibre con coco y menta. Base de haba tonka y sandalo. Para playa, verano y calor extremo.",
+    "accords": [
+      {
+        "name": "tropical",
+        "color": "#2ECC71",
+        "score": 100
+      },
+      {
+        "name": "acuatico",
+        "color": "#2E8FDE",
+        "score": 88
+      },
+      {
+        "name": "frutal",
+        "color": "#FC4B29",
+        "score": 78
+      },
+      {
+        "name": "aromatico",
+        "color": "#37A089",
+        "score": 65
+      }
+    ],
+    "notas": {
+      "top": [
+        "Hoja de Higo",
+        "Agua de Coco",
+        "Jengibre"
+      ],
+      "middle": [
+        "Coco",
+        "Higo",
+        "Menta"
+      ],
+      "base": [
+        "Haba Tonka",
+        "Almizcle",
+        "Sandalo"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Citronellol",
+      "Geraniol",
+      "Citral",
+      "Benzyl Salicylate"
+    ],
+    "rating": 4.2,
+    "duracion": "Larga",
+    "temporadas": [
+      "Primavera",
+      "Verano"
+    ]
+  },
+  {
+    "id": "117625",
+    "brand": "Rasasi",
+    "name": "Hawas Verde",
+    "year": 2025,
+    "precio": 1200,
+    "en_stock": true,
+    "categoria": "calor",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.117625.jpg",
+    "desc": "Mojito fresco beast. Lima, manzana verde y romero con pachuli y ambar. Abre como 7UP de lima-menta y seca en tierra cremosa. Perfecto para calor.",
+    "accords": [
+      {
+        "name": "citrico",
+        "color": "#D4AC0D",
+        "score": 100
+      },
+      {
+        "name": "verde",
+        "color": "#4CAF50",
+        "score": 90
+      },
+      {
+        "name": "aromatico",
+        "color": "#37A089",
+        "score": 78
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 60
+      }
+    ],
+    "notas": {
+      "top": [
+        "Lima",
+        "Romero",
+        "Manzana Verde"
+      ],
+      "middle": [
+        "Notas Aromaticas"
+      ],
+      "base": [
+        "Pachuli",
+        "Ambar"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Citral",
+      "Coumarin",
+      "Benzyl Salicylate"
+    ],
+    "rating": 4.0,
+    "duracion": "Larga",
+    "temporadas": [
+      "Primavera",
+      "Verano"
     ]
   }
 ]
