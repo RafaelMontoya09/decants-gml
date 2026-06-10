@@ -33,13 +33,9 @@
     .topbar{display:flex;align-items:center;gap:1rem;padding:1rem 2rem;
             border-bottom:1px solid var(--border);background:var(--bg2);flex-wrap:wrap}
     .logo-area{display:flex;align-items:center;gap:14px;flex-shrink:0}
-    .logo-box{width:72px;height:72px;border-radius:14px;border:1.5px solid var(--gold);
-              display:flex;align-items:center;justify-content:center;font-size:9px;
-              color:var(--gold);text-align:center;line-height:1.4;cursor:pointer;
-              overflow:hidden;flex-shrink:0;transition:border-color .2s,box-shadow .2s;
-              background:#fff;padding:2px}
-    .logo-box:hover{border-color:var(--gold2);box-shadow:0 0 14px rgba(201,168,76,.3)}
-    .logo-box img{width:100%;height:100%;object-fit:contain;border-radius:10px}
+    .logo-img{width:72px;height:72px;border-radius:14px;object-fit:contain;
+             background:#fff;padding:2px;flex-shrink:0;
+             border:1.5px solid var(--gold)}
     #logoInput{display:none}
     .brand-title{font-family:"Cormorant Garamond",serif;font-size:27px;font-weight:500;
                  letter-spacing:.08em;color:var(--gold2)}
@@ -207,10 +203,7 @@
 <!-- ── TOPBAR ── -->
 <div class="topbar">
   <div class="logo-area">
-    <div class="logo-box" id="logoBox" title="Clic para cambiar logo">
-      <img src="https://RafaelMontoya09.github.io/decants-gml/logo_png.png" alt="Decants GML" id="logoImg">
-      <input type="file" id="logoInput" accept="image/*">
-    </div>
+    <img src="https://RafaelMontoya09.github.io/decants-gml/logo_png.png" alt="Decants GML" class="logo-img">
 
   </div>
 
@@ -445,19 +438,7 @@ document.getElementById("stockLabel").addEventListener("click",function(){
   renderCatalogo(document.getElementById("searchBar").value);
 });
 
-/* ── Logo ── */
-document.getElementById("logoBox").addEventListener("click",function(){document.getElementById("logoInput").click();});
-document.getElementById("logoInput").addEventListener("change",function(e){
-  var file=e.target.files[0];if(!file)return;
-  var r=new FileReader();
-  r.onload=function(ev){
-    var img=document.getElementById("logoImg");
-    var fb=document.getElementById("logoFallback");
-    if(img){img.src=ev.target.result;img.style.display="";}
-    if(fb){fb.style.display="none";}
-  };
-  r.readAsDataURL(file);
-});
+
 </script>
 </body>
 </html>
