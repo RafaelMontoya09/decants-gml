@@ -5,136 +5,247 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Decants GML</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     :root{
-      --navy:#0a1628;--navy2:#112240;--navy3:#1a3a6b;
-      --blue2:#2e7dd4;--blue3:#4a9fe8;--blue4:#7bbff0;
-      --accent:#5fb8ff;
-      --text:#e8f2ff;--text2:#9bbcde;--text3:#5a85b0;
-      --border:rgba(74,159,232,0.22);--card-bg:rgba(17,34,64,0.9);
+      /* ── Paleta lujo: negro-dorado-crema ── */
+      --bg:        #0e0c0a;
+      --bg2:       #161210;
+      --bg3:       #1f1a15;
+      --bg4:       #2a221a;
+      --gold:      #c9a84c;
+      --gold2:     #e8c97a;
+      --gold3:     #f5e0a0;
+      --gold-dim:  rgba(201,168,76,0.18);
+      --cream:     #f2ead8;
+      --text:      #f0e6d0;
+      --text2:     #b8a888;
+      --text3:     #7a6a50;
+      --border:    rgba(201,168,76,0.18);
+      --border2:   rgba(201,168,76,0.38);
+      --card-bg:   rgba(22,18,16,0.95);
+      --radius:    16px;
     }
-    body{font-family:"DM Sans",sans-serif;background:var(--navy);color:var(--text);min-height:100vh}
-    .topbar{display:flex;align-items:center;gap:1rem;padding:1.1rem 2rem;border-bottom:1px solid var(--border);background:var(--navy2);flex-wrap:wrap}
-    .logo-area{display:flex;align-items:center;gap:12px;flex-shrink:0}
-    .logo-box{width:52px;height:52px;border-radius:12px;border:1.5px dashed var(--blue3);display:flex;align-items:center;justify-content:center;font-size:9px;color:var(--blue3);text-align:center;line-height:1.3;cursor:pointer;overflow:hidden;flex-shrink:0;transition:border-color .2s}
-    .logo-box:hover{border-color:var(--accent)}
+    body{font-family:"DM Sans",sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+
+    /* ── TOPBAR ── */
+    .topbar{display:flex;align-items:center;gap:1rem;padding:1rem 2rem;
+            border-bottom:1px solid var(--border);background:var(--bg2);flex-wrap:wrap}
+    .logo-area{display:flex;align-items:center;gap:14px;flex-shrink:0}
+    .logo-box{width:54px;height:54px;border-radius:12px;border:1.5px dashed var(--gold);
+              display:flex;align-items:center;justify-content:center;font-size:9px;
+              color:var(--gold);text-align:center;line-height:1.4;cursor:pointer;
+              overflow:hidden;flex-shrink:0;transition:border-color .2s,box-shadow .2s;
+              background:var(--bg3)}
+    .logo-box:hover{border-color:var(--gold2);box-shadow:0 0 12px rgba(201,168,76,.25)}
     .logo-box img{width:100%;height:100%;object-fit:contain}
     #logoInput{display:none}
-    .brand-title{font-family:"Cormorant Garamond",serif;font-size:26px;font-weight:600;letter-spacing:.04em}
-    .search-wrap{flex:1;max-width:420px;position:relative;min-width:200px}
-    .search-wrap svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text3);pointer-events:none}
-    .search-bar{width:100%;padding:10px 16px 10px 40px;border-radius:10px;border:1px solid var(--border);background:rgba(255,255,255,.05);font-family:"DM Sans",sans-serif;font-size:13.5px;color:var(--text);outline:none;transition:border-color .2s,background .2s}
+    .brand-title{font-family:"Cormorant Garamond",serif;font-size:27px;font-weight:500;
+                 letter-spacing:.08em;color:var(--gold2)}
+    .brand-sub{font-size:9px;letter-spacing:.2em;text-transform:uppercase;
+               color:var(--text3);margin-top:-2px}
+
+    .search-wrap{flex:1;max-width:380px;position:relative;min-width:180px}
+    .search-wrap svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);
+                     color:var(--text3);pointer-events:none}
+    .search-bar{width:100%;padding:9px 14px 9px 38px;border-radius:10px;
+                border:1px solid var(--border);background:rgba(255,255,255,.04);
+                font-family:"DM Sans",sans-serif;font-size:13px;color:var(--text);outline:none;
+                transition:border-color .2s}
     .search-bar::placeholder{color:var(--text3)}
-    .search-bar:focus{border-color:var(--blue3);background:rgba(255,255,255,.08)}
-    .stock-toggle{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--text2);cursor:pointer;user-select:none;flex-shrink:0}
-    .toggle-track{width:36px;height:20px;border-radius:10px;background:var(--navy3);border:1px solid rgba(74,159,232,.4);position:relative;transition:background .2s;flex-shrink:0}
-    .toggle-track.on{background:var(--blue2)}
-    .toggle-knob{position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;background:#fff;transition:transform .2s}
+    .search-bar:focus{border-color:var(--gold)}
+
+    /* ── FILTROS ── */
+    .filters{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+    .fchip{font-size:11px;font-weight:500;padding:5px 13px;border-radius:20px;
+           border:1px solid var(--border);background:transparent;
+           font-family:"DM Sans",sans-serif;color:var(--text2);cursor:pointer;
+           transition:all .15s;letter-spacing:.04em;white-space:nowrap}
+    .fchip:hover{border-color:var(--gold);color:var(--gold)}
+    .fchip.active{background:var(--gold-dim);border-color:var(--gold);color:var(--gold2)}
+
+    .stock-toggle{display:flex;align-items:center;gap:8px;font-size:11px;
+                  color:var(--text2);cursor:pointer;user-select:none;flex-shrink:0}
+    .toggle-track{width:34px;height:18px;border-radius:9px;background:var(--bg4);
+                  border:1px solid var(--border2);position:relative;
+                  transition:background .2s;flex-shrink:0}
+    .toggle-track.on{background:var(--gold)}
+    .toggle-knob{position:absolute;top:2px;left:2px;width:12px;height:12px;
+                 border-radius:50%;background:#fff;transition:transform .2s}
     .toggle-track.on .toggle-knob{transform:translateX(16px)}
-    .item-count{font-size:12px;color:var(--text3);letter-spacing:.06em;flex-shrink:0;margin-left:auto}
-    .catalog-container{max-width:1100px;margin:0 auto;padding:2rem 1.5rem 4rem}
-    .catalog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:1.5rem}
+    .item-count{font-size:11px;color:var(--text3);flex-shrink:0;margin-left:auto;
+                letter-spacing:.06em}
+
+    /* ── FILTER BAR ── */
+    .filter-bar{background:var(--bg2);border-bottom:1px solid var(--border);
+                padding:.7rem 2rem;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+
+    /* ── GRID ── */
+    .catalog-container{max-width:1120px;margin:0 auto;padding:2rem 1.5rem 4rem}
+    .catalog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(295px,1fr));gap:1.4rem}
     .status-msg{text-align:center;padding:4rem 1rem;color:var(--text3);font-size:14px;grid-column:1/-1}
 
     /* ── CARD ── */
-    .perfume-card{background:var(--card-bg);border:1px solid rgba(74,159,232,.28);border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s,transform .15s}
-    .perfume-card:hover{border-color:var(--blue3);transform:translateY(-3px)}
-    .perfume-card.out-of-stock{opacity:.4;pointer-events:none}
+    .perfume-card{background:var(--card-bg);border:1px solid rgba(201,168,76,.2);
+                  border-radius:var(--radius);overflow:hidden;display:flex;
+                  flex-direction:column;transition:border-color .2s,transform .15s,box-shadow .2s}
+    .perfume-card:hover{border-color:var(--gold);transform:translateY(-3px);
+                        box-shadow:0 8px 32px rgba(201,168,76,.12)}
+    .perfume-card.out-of-stock{opacity:.38;pointer-events:none}
 
     /* ── GALLERY ── */
-    .img-gallery{position:relative;aspect-ratio:1/1;background:var(--navy3);overflow:hidden}
+    .img-gallery{position:relative;aspect-ratio:1/1;background:var(--bg3);overflow:hidden}
     .gallery-slides{display:flex;width:300%;height:100%;transition:transform .35s ease}
     .gallery-slide{width:calc(100%/3);height:100%;flex-shrink:0;overflow:hidden}
     .gallery-slide img{width:100%;height:100%;object-fit:cover;display:block}
+    .gallery-tabs{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);
+                  display:flex;gap:5px;background:rgba(14,12,10,.82);
+                  padding:5px 10px;border-radius:20px;backdrop-filter:blur(6px)}
+    .gtab{font-size:9px;font-weight:500;color:var(--text3);cursor:pointer;
+          padding:3px 8px;border-radius:10px;border:1px solid transparent;
+          transition:all .15s;letter-spacing:.06em;text-transform:uppercase;
+          background:none;font-family:"DM Sans",sans-serif}
+    .gtab.active{color:var(--gold2);border-color:var(--gold);background:var(--gold-dim)}
+    .stock-badge{position:absolute;top:10px;right:10px;font-size:9.5px;font-weight:500;
+                 padding:3px 9px;border-radius:20px;letter-spacing:.06em}
+    .stock-badge.in{background:rgba(201,168,76,.18);color:var(--gold2);
+                    border:1px solid rgba(201,168,76,.4)}
+    .stock-badge.out{background:rgba(14,12,10,.85);color:var(--text3);
+                     border:1px solid var(--border)}
+    .cat-badge{position:absolute;top:10px;left:10px;font-size:9px;font-weight:500;
+               padding:3px 9px;border-radius:20px;letter-spacing:.06em;
+               background:rgba(14,12,10,.78);color:var(--text2);
+               border:1px solid rgba(201,168,76,.25);backdrop-filter:blur(4px);
+               text-transform:capitalize}
 
     /* ── SLIDE NOTAS ── */
-    .slide-notas{width:100%;height:100%;background:var(--navy2);padding:1.1rem 1rem;display:flex;flex-direction:column;justify-content:center;gap:10px;overflow:hidden}
-    .slide-notas-title{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue3);margin-bottom:2px;font-weight:500}
+    .slide-notas{width:100%;height:100%;background:var(--bg3);padding:1.1rem 1rem;
+                 display:flex;flex-direction:column;justify-content:center;gap:10px}
+    .slide-title{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;
+                 color:var(--gold);margin-bottom:2px;font-weight:500}
     .nota-layer-row{display:flex;gap:8px;align-items:flex-start}
-    .nota-layer-lbl{font-size:9px;color:var(--text3);text-transform:uppercase;letter-spacing:.08em;min-width:36px;flex-shrink:0;padding-top:3px}
+    .nota-layer-lbl{font-size:9px;color:var(--text3);text-transform:uppercase;
+                    letter-spacing:.08em;min-width:36px;flex-shrink:0;padding-top:3px}
     .nota-chips{display:flex;flex-wrap:wrap;gap:4px}
-    .nota-chip{font-size:10.5px;color:var(--text2);background:rgba(74,159,232,.13);border:1px solid rgba(74,159,232,.25);padding:2px 8px;border-radius:8px}
-    .nota-chip.top{background:rgba(95,184,255,.15);border-color:rgba(95,184,255,.35);color:#a8d8f8}
-    .nota-chip.mid{background:rgba(55,160,137,.15);border-color:rgba(55,160,137,.35);color:#7dd4c4}
-    .nota-chip.base{background:rgba(119,68,20,.2);border-color:rgba(119,68,20,.4);color:#c49a6c}
+    .nota-chip{font-size:10px;padding:2px 8px;border-radius:8px}
+    .nota-chip.top{background:rgba(201,168,76,.12);border:1px solid rgba(201,168,76,.3);color:var(--gold3)}
+    .nota-chip.mid{background:rgba(240,230,208,.07);border:1px solid rgba(240,230,208,.15);color:var(--text2)}
+    .nota-chip.base{background:rgba(119,68,20,.18);border:1px solid rgba(119,68,20,.35);color:#c49a6c}
 
-    /* ── SLIDE INGREDIENTES ── */
-    .slide-inci{width:100%;height:100%;background:var(--navy2);padding:1rem;display:flex;flex-direction:column;gap:8px;overflow:hidden}
-    .slide-inci-title{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue3);font-weight:500}
-    .inci-list{display:flex;flex-direction:column;gap:5px;overflow:hidden}
-    .inci-row{display:flex;align-items:center;gap:8px}
-    .inci-name{font-size:10px;color:var(--text2);min-width:90px;flex-shrink:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-    .inci-bar-wrap{flex:1;height:6px;background:rgba(255,255,255,.06);border-radius:3px;overflow:hidden}
-    .inci-bar{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--blue2),var(--blue3))}
-    .accord-bar-section{display:flex;flex-direction:column;gap:5px;margin-top:4px}
+    /* ── SLIDE ACORDES ── */
+    .slide-inci{width:100%;height:100%;background:var(--bg3);padding:1rem;
+                display:flex;flex-direction:column;gap:8px;overflow:hidden}
+    .accord-bar-section{display:flex;flex-direction:column;gap:6px}
     .accord-bar-row{display:flex;align-items:center;gap:8px}
-    .accord-bar-lbl{font-size:10px;color:var(--text2);min-width:80px;text-transform:capitalize;flex-shrink:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-    .accord-bar-wrap{flex:1;height:8px;background:rgba(255,255,255,.06);border-radius:4px;overflow:hidden}
-    .accord-bar-fill{height:100%;border-radius:4px;transition:width .4s}
+    .accord-bar-lbl{font-size:10px;color:var(--text2);min-width:82px;text-transform:capitalize;
+                    flex-shrink:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .accord-bar-wrap{flex:1;height:7px;background:rgba(255,255,255,.05);border-radius:4px;overflow:hidden}
+    .accord-bar-fill{height:100%;border-radius:4px}
     .accord-pct{font-size:9px;color:var(--text3);min-width:26px;text-align:right}
-
-    /* ── GALLERY TABS ── */
-    .gallery-tabs{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);display:flex;gap:6px;background:rgba(10,22,40,.75);padding:5px 10px;border-radius:20px;backdrop-filter:blur(4px)}
-    .gtab{font-size:9.5px;font-weight:500;color:var(--text3);cursor:pointer;padding:3px 8px;border-radius:10px;border:1px solid transparent;transition:all .15s;letter-spacing:.05em;text-transform:uppercase;background:none;font-family:"DM Sans",sans-serif}
-    .gtab.active{color:var(--accent);border-color:var(--accent);background:rgba(95,184,255,.12)}
-    .stock-badge{position:absolute;top:10px;right:10px;font-size:10px;font-weight:500;padding:3px 9px;border-radius:20px;letter-spacing:.06em}
-    .stock-badge.in{background:rgba(30,90,173,.8);color:var(--blue4);border:1px solid var(--blue3)}
-    .stock-badge.out{background:rgba(10,22,40,.85);color:var(--text3);border:1px solid var(--border)}
+    .inci-list{display:flex;flex-direction:column;gap:4px;margin-top:2px}
+    .inci-row{display:flex;align-items:center;gap:8px}
+    .inci-name{font-size:9.5px;color:var(--text2);min-width:90px;flex-shrink:0;
+               white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .inci-bar-wrap{flex:1;height:5px;background:rgba(255,255,255,.05);border-radius:3px;overflow:hidden}
+    .inci-bar{height:100%;border-radius:3px;
+              background:linear-gradient(90deg,var(--gold),var(--gold2))}
 
     /* ── ACCORDS PILLS ── */
-    .accords-wrap{padding:.6rem 1rem .4rem;display:flex;gap:5px;flex-wrap:wrap}
-    .accord-pill{font-size:9.5px;font-weight:500;padding:3px 8px;border-radius:10px;letter-spacing:.04em;text-transform:capitalize}
+    .accords-wrap{padding:.55rem 1rem .35rem;display:flex;gap:4px;flex-wrap:wrap;
+                  border-bottom:1px solid var(--border)}
+    .accord-pill{font-size:9px;font-weight:500;padding:2px 7px;border-radius:8px;
+                 letter-spacing:.04em;text-transform:capitalize}
 
     /* ── CARD BODY ── */
-    .details-box{padding:.75rem 1rem .65rem;flex:1;display:flex;flex-direction:column;gap:4px}
+    .details-box{padding:.75rem 1rem .6rem;flex:1;display:flex;flex-direction:column;gap:4px}
     .meta-row{display:flex;align-items:center;gap:8px}
-    .brand-lbl{font-size:10px;color:var(--blue3);letter-spacing:.14em;text-transform:uppercase}
-    .year-lbl{font-size:10px;color:var(--text3)}
-    .name-lbl{font-family:"Cormorant Garamond",serif;font-size:20px;font-weight:600;color:var(--text);line-height:1.2}
-    .desc-txt{font-size:12px;color:var(--text2);line-height:1.6;flex:1;margin-top:2px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+    .brand-lbl{font-size:9.5px;color:var(--gold);letter-spacing:.14em;text-transform:uppercase}
+    .year-lbl{font-size:9.5px;color:var(--text3)}
+    .name-lbl{font-family:"Cormorant Garamond",serif;font-size:20px;font-weight:500;
+              color:var(--cream);line-height:1.2;letter-spacing:.02em}
+    .desc-txt{font-size:11.5px;color:var(--text2);line-height:1.65;flex:1;margin-top:3px;
+              display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
     .stats-row{display:flex;gap:10px;margin-top:6px;flex-wrap:wrap}
     .stat{font-size:10px;color:var(--text3);display:flex;align-items:center;gap:3px}
     .stat span{color:var(--text2)}
-    .rating-stars{color:#5fb8ff;font-size:11px}
+    .rating-stars{color:var(--gold);font-size:11px}
+
+    /* ── DIVIDER ── */
+    .card-divider{height:1px;background:var(--border);margin:0 1rem}
 
     /* ── SIZES ── */
-    .size-selector{display:flex;gap:6px;margin-top:10px}
-    .size-btn{flex:1;padding:8px 4px;border-radius:10px;border:1px solid var(--border);background:transparent;font-family:"DM Sans",sans-serif;cursor:pointer;text-align:center;transition:all .15s;line-height:1.3}
-    .size-btn:hover{border-color:var(--blue3)}
-    .size-btn.active{background:rgba(46,125,212,.2);border-color:var(--blue2)}
-    .size-btn .ml{display:block;font-size:13px;font-weight:500;color:var(--text)}
+    .size-selector{display:flex;gap:5px;margin-top:10px}
+    .size-btn{flex:1;padding:8px 4px;border-radius:10px;border:1px solid var(--border);
+              background:transparent;font-family:"DM Sans",sans-serif;cursor:pointer;
+              text-align:center;transition:all .15s;line-height:1.3}
+    .size-btn:hover{border-color:var(--gold)}
+    .size-btn.active{background:var(--gold-dim);border-color:var(--gold)}
+    .size-btn .ml{display:block;font-size:12.5px;font-weight:500;color:var(--text)}
     .size-btn .price{display:block;font-size:10px;color:var(--text3);margin-top:2px}
-    .size-btn.active .price{color:var(--blue4)}
+    .size-btn.active .price{color:var(--gold2)}
 
     /* ── BUY ── */
-    .buy-btn{display:flex;align-items:center;justify-content:center;gap:8px;margin:8px 1rem 1rem;padding:11px;background:linear-gradient(135deg,#1e5aad,#2e7dd4);border-radius:10px;font-family:"DM Sans",sans-serif;font-size:13px;font-weight:500;color:#fff;text-decoration:none;border:1px solid rgba(95,184,255,.3);transition:opacity .15s,transform .1s}
+    .buy-btn{display:flex;align-items:center;justify-content:center;gap:8px;
+             margin:8px 1rem 1rem;padding:11px;
+             background:linear-gradient(135deg,#25D366,#1eba56);
+             border-radius:10px;font-family:"DM Sans",sans-serif;font-size:13px;
+             font-weight:500;color:#fff;text-decoration:none;
+             border:1px solid rgba(255,255,255,.15);transition:opacity .15s,transform .1s}
     .buy-btn:hover{opacity:.9;transform:scale(.99)}
-    @media(max-width:680px){.topbar{padding:1rem}.brand-title{font-size:20px}.item-count{display:none}}
+
+    @media(max-width:700px){
+      .topbar{padding:.9rem 1rem}
+      .filter-bar{padding:.6rem 1rem}
+      .brand-title{font-size:21px}
+      .item-count{display:none}
+    }
   </style>
 </head>
 <body>
 
+<!-- ── TOPBAR ── -->
 <div class="topbar">
   <div class="logo-area">
     <div class="logo-box" id="logoBox" title="Clic para subir tu logo">
       <span>Tu<br>Logo</span>
       <input type="file" id="logoInput" accept="image/*">
     </div>
-    <span class="brand-title">Decants GML</span>
+    <div>
+      <div class="brand-title">Decants GML</div>
+      <div class="brand-sub">Perfumería de Autor</div>
+    </div>
   </div>
+
   <div class="search-wrap">
-    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-    <input type="text" id="searchBar" class="search-bar" placeholder="Buscar perfume, marca, acorde, nota...">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" id="searchBar" class="search-bar" placeholder="Buscar perfume, marca, nota...">
   </div>
+
   <label class="stock-toggle" id="stockLabel">
     <div class="toggle-track on" id="stockTrack"><div class="toggle-knob"></div></div>
     Solo en stock
   </label>
+
   <span class="item-count" id="itemCount"></span>
 </div>
 
+<!-- ── FILTER BAR ── -->
+<div class="filter-bar">
+  <div class="filters" id="filterChips">
+    <button class="fchip active" data-cat="todos">Todos</button>
+    <button class="fchip" data-cat="calor">☀️ Para calor</button>
+    <button class="fchip" data-cat="noche">🌙 Noche / Fiesta</button>
+    <button class="fchip" data-cat="versatil">⭐ Versátiles</button>
+    <button class="fchip" data-cat="diario">🌿 Diario</button>
+    <button class="fchip" data-marca="Armaf">Armaf</button>
+    <button class="fchip" data-marca="Rasasi">Rasasi</button>
+    <button class="fchip" data-marca="Lattafa">Lattafa</button>
+    <button class="fchip" data-marca="Afnan">Afnan</button>
+  </div>
+</div>
+
+<!-- ── CATÁLOGO ── -->
 <div class="catalog-container">
   <div id="catalogGrid" class="catalog-grid">
     <div class="status-msg">Cargando catálogo...</div>
@@ -147,126 +258,93 @@ var WHATSAPP = "526731345446";
 var PCT_5ML  = 0.12;
 var PCT_10ML = 0.22;
 
-var PERFUMES  = [];
-var soloStock = true;
-var selSize   = {};
+var PERFUMES   = [];
+var soloStock  = true;
+var selSize    = {};
+var filtroActivo = "todos";
+var marcaActiva  = null;
 
-function calcPrecios(precio) {
-  return { "5ml": Math.round(precio*PCT_5ML), "10ml": Math.round(precio*PCT_10ML), "full": precio };
+var CAT_LABELS = {
+  "calor":"Para calor","noche":"Noche","versatil":"Versatil","diario":"Diario","todos":"Todos"
+};
+
+function calcPrecios(precio){
+  return{"5ml":Math.round(precio*PCT_5ML),"10ml":Math.round(precio*PCT_10ML),"full":precio};
+}
+function stars(r){
+  if(!r)return"";var f=Math.round(r);return"★".repeat(f)+"☆".repeat(5-f);
+}
+function waUrl(p,size){
+  var pr=calcPrecios(p.precio);
+  var lbl={"5ml":"5 ml","10ml":"10 ml","full":"Frasco completo"};
+  var msg="Hola! Me interesa *"+p.name+"* de *"+p.brand+"* — "+lbl[size]+" ($"+pr[size].toLocaleString()+" MXN). ¿Tienen disponibilidad?";
+  return"https://wa.me/"+WHATSAPP+"?text="+encodeURIComponent(msg);
 }
 
-function stars(r) {
-  if (!r) return "";
-  var f = Math.round(r);
-  return "★".repeat(f) + "☆".repeat(5-f);
+function slidePhoto(p){
+  var ph=p.photo||"https://via.placeholder.com/375x500/1f1a15/c9a84c?text="+encodeURIComponent(p.name);
+  return'<div class="gallery-slide"><img src="'+ph+'" alt="'+p.name+'" loading="lazy" onerror="this.src=\'https://via.placeholder.com/375x500/1f1a15/c9a84c?text='+encodeURIComponent(p.name)+'\'"></div>';
 }
-
-function waUrl(p, size) {
-  var pr  = calcPrecios(p.precio);
-  var lbl = {"5ml":"5 ml","10ml":"10 ml","full":"Frasco completo"};
-  var msg = "Hola! Me interesa *"+p.name+"* de *"+p.brand+"* — "+lbl[size]+" ($"+pr[size].toLocaleString()+" MXN). ¿Tienen disponibilidad?";
-  return "https://wa.me/"+WHATSAPP+"?text="+encodeURIComponent(msg);
-}
-
-/* ── Slide 1: Foto del frasco ── */
-function slidePhoto(p) {
-  var photo = p.photo || "https://via.placeholder.com/375x500/1a3a6b/7bbff0?text="+encodeURIComponent(p.name);
-  return '<div class="gallery-slide"><img src="'+photo+'" alt="'+p.name+'" loading="lazy" onerror="this.src=\'https://via.placeholder.com/375x500/1a3a6b/7bbff0?text='+encodeURIComponent(p.name)+'\'"></div>';
-}
-
-/* ── Slide 2: Pirámide de notas ── */
-function slideNotas(p) {
-  var n = p.notas || {};
-  var layers = [
-    {lbl:"Top",  cls:"top",  arr: n.top    || []},
-    {lbl:"Med",  cls:"mid",  arr: n.middle || []},
-    {lbl:"Base", cls:"base", arr: n.base   || []},
-  ];
-  var rows = layers.filter(function(l){ return l.arr.length; }).map(function(l) {
-    var chips = l.arr.slice(0,6).map(function(note) {
-      return '<span class="nota-chip '+l.cls+'">'+note+'</span>';
-    }).join("");
-    return '<div class="nota-layer-row"><span class="nota-layer-lbl">'+l.lbl+'</span><div class="nota-chips">'+chips+'</div></div>';
+function slideNotas(p){
+  var n=p.notas||{};
+  var layers=[["Top","top",n.top||[]],["Med","mid",n.middle||[]],["Base","base",n.base||[]]];
+  var rows=layers.filter(function(l){return l[2].length;}).map(function(l){
+    var chips=l[2].slice(0,6).map(function(note){return'<span class="nota-chip '+l[1]+'">'+note+'</span>';}).join("");
+    return'<div class="nota-layer-row"><span class="nota-layer-lbl">'+l[0]+'</span><div class="nota-chips">'+chips+'</div></div>';
   }).join("");
-  return '<div class="gallery-slide"><div class="slide-notas"><div class="slide-notas-title">Pirámide olfativa</div>'+rows+'</div></div>';
+  return'<div class="gallery-slide"><div class="slide-notas"><div class="slide-title">Pirámide Olfativa</div>'+rows+'</div></div>';
+}
+function slideAcordes(p){
+  var accords=p.accords||[];
+  var max=accords.length?accords[0].score:100;
+  var bars=accords.map(function(a){
+    var pct=Math.round(a.score/max*100);
+    return'<div class="accord-bar-row"><span class="accord-bar-lbl">'+a.name+'</span><div class="accord-bar-wrap"><div class="accord-bar-fill" style="width:'+pct+'%;background:'+a.color+'"></div></div><span class="accord-pct">'+pct+'%</span></div>';
+  }).join("");
+  var inci=(p.ingredientes||[]).slice(0,5);
+  var inciRows=inci.map(function(ing,i){
+    return'<div class="inci-row"><span class="inci-name">'+ing+'</span><div class="inci-bar-wrap"><div class="inci-bar" style="width:'+Math.max(30,100-i*15)+'%"></div></div></div>';
+  }).join("");
+  return'<div class="gallery-slide"><div class="slide-inci"><div class="slide-title">Acordes</div><div class="accord-bar-section">'+bars+'</div>'+(inciRows?'<div class="slide-title" style="margin-top:8px">Ingredientes</div><div class="inci-list">'+inciRows+'</div>':'')+'</div></div>';
 }
 
-/* ── Slide 3: Acordes con barras de color ── */
-function slideIngredientes(p) {
-  var accords = p.accords || [];
-  var max = accords.length ? accords[0].score : 100;
-  var bars = accords.map(function(a) {
-    var pct = Math.round(a.score / max * 100);
-    return '<div class="accord-bar-row">'+
-      '<span class="accord-bar-lbl">'+a.name+'</span>'+
-      '<div class="accord-bar-wrap"><div class="accord-bar-fill" style="width:'+pct+'%;background:'+a.color+'"></div></div>'+
-      '<span class="accord-pct">'+pct+'%</span>'+
-    '</div>';
-  }).join("");
+function crearTarjeta(p){
+  var pr=calcPrecios(p.precio);
+  var sel=selSize[p.id];
+  var inStock=p.en_stock!==false;
+  var catLabel=CAT_LABELS[p.categoria]||p.categoria||"";
 
-  var inci = (p.ingredientes || []).slice(0,6);
-  var inciRows = inci.map(function(ing, i) {
-    var w = Math.max(30, 100 - i*14);
-    return '<div class="inci-row">'+
-      '<span class="inci-name">'+ing+'</span>'+
-      '<div class="inci-bar-wrap"><div class="inci-bar" style="width:'+w+'%"></div></div>'+
-    '</div>';
+  var accordsHtml=(p.accords||[]).map(function(a){
+    return'<span class="accord-pill" style="background:'+a.color+'22;color:'+a.color+';border:1px solid '+a.color+'44">'+a.name+'</span>';
   }).join("");
 
-  return '<div class="gallery-slide"><div class="slide-inci">'+
-    '<div class="slide-inci-title">Acordes</div>'+
-    '<div class="accord-bar-section">'+bars+'</div>'+
-    (inciRows ? '<div class="slide-inci-title" style="margin-top:8px">Ingredientes INCI</div><div class="inci-list">'+inciRows+'</div>' : '')+
-  '</div></div>';
-}
-
-/* ── Crear tarjeta completa ── */
-function crearTarjeta(p) {
-  var pr      = calcPrecios(p.precio);
-  var sel     = selSize[p.id];
-  var inStock = p.en_stock !== false;
-
-  var accordsHtml = (p.accords||[]).map(function(a) {
-    return '<span class="accord-pill" style="background:'+a.color+'22;color:'+a.color+';border:1px solid '+a.color+'44">'+a.name+'</span>';
-  }).join("");
-
-  var statsHtml = [
-    p.rating   ? '<span class="stat"><span class="rating-stars">'+stars(p.rating)+'</span><span>'+p.rating.toFixed(1)+'</span></span>' : "",
-    p.duracion ? '<span class="stat">⏱ <span>'+p.duracion+'</span></span>' : "",
-    p.temporadas&&p.temporadas.length ? '<span class="stat">📅 <span>'+p.temporadas.join(", ")+'</span></span>' : "",
+  var statsHtml=[
+    p.rating?'<span class="stat"><span class="rating-stars">'+stars(p.rating)+'</span><span>'+p.rating.toFixed(1)+'</span></span>':"",
+    p.duracion?'<span class="stat">⏱ <span>'+p.duracion+'</span></span>':"",
+    p.temporadas&&p.temporadas.length?'<span class="stat">📅 <span>'+p.temporadas.join(", ")+'</span></span>':"",
   ].filter(Boolean).join("");
 
-  var sizesHtml = [
-    {key:"5ml",label:"5 ml"},{key:"10ml",label:"10 ml"},{key:"full",label:"Frasco"}
-  ].map(function(s) {
-    return '<button class="size-btn '+(sel===s.key?"active":"")+'" data-id="'+p.id+'" data-size="'+s.key+'">'+
-      '<span class="ml">'+s.label+'</span>'+
-      '<span class="price">$'+pr[s.key].toLocaleString()+'</span>'+
-    '</button>';
+  var sizesHtml=[{key:"5ml",label:"5 ml"},{key:"10ml",label:"10 ml"},{key:"full",label:"Frasco"}].map(function(s){
+    return'<button class="size-btn '+(sel===s.key?"active":"")+'" data-id="'+p.id+'" data-size="'+s.key+'"><span class="ml">'+s.label+'</span><span class="price">$'+pr[s.key].toLocaleString()+'</span></button>';
   }).join("");
 
-  var div = document.createElement("div");
-  div.className = "perfume-card"+(inStock?"":" out-of-stock");
-  div.id = "card-"+p.id;
-  div.innerHTML =
+  var div=document.createElement("div");
+  div.className="perfume-card"+(inStock?"":" out-of-stock");
+  div.id="card-"+p.id;
+  div.innerHTML=
     '<div class="img-gallery">'+
-      '<div class="gallery-slides" id="slides-'+p.id+'">'+
-        slidePhoto(p)+
-        slideNotas(p)+
-        slideIngredientes(p)+
-      '</div>'+
+      '<div class="gallery-slides" id="slides-'+p.id+'">'+slidePhoto(p)+slideNotas(p)+slideAcordes(p)+'</div>'+
       '<div class="gallery-tabs">'+
         '<button class="gtab active" data-id="'+p.id+'" data-slide="0">Frasco</button>'+
         '<button class="gtab" data-id="'+p.id+'" data-slide="1">Notas</button>'+
         '<button class="gtab" data-id="'+p.id+'" data-slide="2">Acordes</button>'+
       '</div>'+
       '<span class="stock-badge '+(inStock?"in":"out")+'">'+(inStock?"En stock":"Sin stock")+'</span>'+
+      (catLabel?'<span class="cat-badge">'+catLabel+'</span>':"")+
     '</div>'+
     (accordsHtml?'<div class="accords-wrap">'+accordsHtml+'</div>':"")+
     '<div class="details-box">'+
-      '<div class="meta-row">'+
-        '<span class="brand-lbl">'+p.brand+'</span>'+
-        (p.year?'<span class="year-lbl">· '+p.year+'</span>':"")+
+      '<div class="meta-row"><span class="brand-lbl">'+p.brand+'</span>'+(p.year?'<span class="year-lbl">· '+p.year+'</span>':"")+
       '</div>'+
       '<h2 class="name-lbl">'+p.name+'</h2>'+
       '<p class="desc-txt">'+(p.desc||"")+'</p>'+
@@ -280,32 +358,34 @@ function crearTarjeta(p) {
   return div;
 }
 
-/* ── Render ── */
-function renderCatalogo(filtro) {
-  filtro = filtro || "";
-  var grid = document.getElementById("catalogGrid");
-  grid.innerHTML = "";
-  var q = filtro.toLowerCase();
-  var lista = PERFUMES.filter(function(p) {
-    return p.name.toLowerCase().includes(q) ||
-      p.brand.toLowerCase().includes(q) ||
-      (p.accords||[]).some(function(a){ return a.name.toLowerCase().includes(q); }) ||
-      ((p.notas&&p.notas.top)||[]).some(function(n){ return n.toLowerCase().includes(q); }) ||
-      ((p.notas&&p.notas.middle)||[]).some(function(n){ return n.toLowerCase().includes(q); }) ||
-      ((p.notas&&p.notas.base)||[]).some(function(n){ return n.toLowerCase().includes(q); });
+function renderCatalogo(filtro){
+  filtro=filtro||"";
+  var grid=document.getElementById("catalogGrid");
+  grid.innerHTML="";
+  var q=filtro.toLowerCase();
+
+  var lista=PERFUMES.filter(function(p){
+    var matchQ=!q||p.name.toLowerCase().includes(q)||p.brand.toLowerCase().includes(q)||
+      (p.accords||[]).some(function(a){return a.name.toLowerCase().includes(q);})||
+      ((p.notas&&p.notas.top)||[]).some(function(n){return n.toLowerCase().includes(q);})||
+      ((p.notas&&p.notas.middle)||[]).some(function(n){return n.toLowerCase().includes(q);})||
+      ((p.notas&&p.notas.base)||[]).some(function(n){return n.toLowerCase().includes(q);});
+    var matchCat=filtroActivo==="todos"||(p.categoria===filtroActivo);
+    var matchMarca=!marcaActiva||(p.brand===marcaActiva);
+    return matchQ&&matchCat&&matchMarca;
   });
-  if (soloStock) lista = lista.filter(function(p){ return p.en_stock !== false; });
-  document.getElementById("itemCount").textContent = lista.length+" perfume"+(lista.length!==1?"s":"");
-  if (!lista.length) { grid.innerHTML='<div class="status-msg">No se encontraron perfumes.</div>'; return; }
-  lista.forEach(function(p){ grid.appendChild(crearTarjeta(p)); });
+
+  if(soloStock)lista=lista.filter(function(p){return p.en_stock!==false;});
+  document.getElementById("itemCount").textContent=lista.length+" perfume"+(lista.length!==1?"s":"");
+  if(!lista.length){grid.innerHTML='<div class="status-msg">No se encontraron perfumes.</div>';return;}
+  lista.forEach(function(p){grid.appendChild(crearTarjeta(p));});
 }
 
-/* ── Fetch ── */
 fetch(API_URL)
-  .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+  .then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json();})
   .then(function(data){
-    PERFUMES = data;
-    PERFUMES.forEach(function(p){ selSize[p.id]="5ml"; });
+    PERFUMES=data;
+    PERFUMES.forEach(function(p){selSize[p.id]="5ml";});
     renderCatalogo();
   })
   .catch(function(err){
@@ -313,42 +393,67 @@ fetch(API_URL)
       '<div class="status-msg">⚠️ No se pudo cargar el catálogo.<br><small>'+err.message+'</small></div>';
   });
 
-/* ── Eventos ── */
-document.getElementById("catalogGrid").addEventListener("click", function(e) {
-  var tab = e.target.closest(".gtab");
-  if (tab) {
-    var id=tab.dataset.id, slide=parseInt(tab.dataset.slide);
+/* ── Filtros ── */
+document.getElementById("filterChips").addEventListener("click",function(e){
+  var chip=e.target.closest(".fchip");
+  if(!chip)return;
+  if(chip.dataset.cat){
+    filtroActivo=chip.dataset.cat;
+    marcaActiva=null;
+    document.querySelectorAll(".fchip").forEach(function(c){
+      c.classList.toggle("active",c===chip);
+    });
+  } else if(chip.dataset.marca){
+    var sameMarca=chip.classList.contains("active");
+    document.querySelectorAll(".fchip").forEach(function(c){c.classList.remove("active");});
+    if(sameMarca){
+      marcaActiva=null;
+      document.querySelector(".fchip[data-cat='todos']").classList.add("active");
+    } else {
+      marcaActiva=chip.dataset.marca;
+      chip.classList.add("active");
+    }
+  }
+  renderCatalogo(document.getElementById("searchBar").value);
+});
+
+/* ── Galería y tallas ── */
+document.getElementById("catalogGrid").addEventListener("click",function(e){
+  var tab=e.target.closest(".gtab");
+  if(tab){
+    var id=tab.dataset.id,slide=parseInt(tab.dataset.slide);
     document.getElementById("slides-"+id).style.transform="translateX(-"+(slide*100/3)+"%)";
     document.getElementById("card-"+id).querySelectorAll(".gtab").forEach(function(t){
-      t.classList.toggle("active", parseInt(t.dataset.slide)===slide);
+      t.classList.toggle("active",parseInt(t.dataset.slide)===slide);
     });
     return;
   }
-  var btn = e.target.closest(".size-btn");
-  if (btn) {
-    var id=btn.dataset.id, size=btn.dataset.size;
+  var btn=e.target.closest(".size-btn");
+  if(btn){
+    var id=btn.dataset.id,size=btn.dataset.size;
     selSize[id]=size;
     document.getElementById("card-"+id).querySelectorAll(".size-btn").forEach(function(b){
-      b.classList.toggle("active", b.dataset.size===size);
+      b.classList.toggle("active",b.dataset.size===size);
     });
-    var perf=PERFUMES.find(function(p){ return p.id===id; });
+    var perf=PERFUMES.find(function(p){return p.id===id;});
     document.getElementById("buy-"+id).href=waUrl(perf,size);
   }
 });
 
-document.getElementById("searchBar").addEventListener("input", function(e){ renderCatalogo(e.target.value); });
+document.getElementById("searchBar").addEventListener("input",function(e){renderCatalogo(e.target.value);});
 
-document.getElementById("stockLabel").addEventListener("click", function(){
+document.getElementById("stockLabel").addEventListener("click",function(){
   soloStock=!soloStock;
   document.getElementById("stockTrack").classList.toggle("on",soloStock);
   renderCatalogo(document.getElementById("searchBar").value);
 });
 
-document.getElementById("logoBox").addEventListener("click", function(){ document.getElementById("logoInput").click(); });
-document.getElementById("logoInput").addEventListener("change", function(e){
-  var file=e.target.files[0]; if(!file) return;
+/* ── Logo ── */
+document.getElementById("logoBox").addEventListener("click",function(){document.getElementById("logoInput").click();});
+document.getElementById("logoInput").addEventListener("change",function(e){
+  var file=e.target.files[0];if(!file)return;
   var r=new FileReader();
-  r.onload=function(ev){ document.getElementById("logoBox").innerHTML='<img src="'+ev.target.result+'" alt="Logo">'; };
+  r.onload=function(ev){document.getElementById("logoBox").innerHTML='<img src="'+ev.target.result+'" alt="Logo">';};
   r.readAsDataURL(file);
 });
 </script>
