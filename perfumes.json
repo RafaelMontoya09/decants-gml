@@ -2581,5 +2581,1727 @@
       "Otono",
       "Invierno"
     ]
+  },
+  {
+    "id": "78611",
+    "brand": "Afnan",
+    "name": "9AM Dive",
+    "year": 2022,
+    "precio": 750,
+    "en_stock": true,
+    "categoria": "calor",
+    "genero": "hombre",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78611.jpg",
+    "desc": "Dupe del YSL Y EDP. Fresco aromatico acuatico unisex. Limon, menta y grosella negra con manzana, cedro e incienso. Base de jengibre, sandalo y jazmin. Diario perfecto para primavera-verano.",
+    "accords": [
+      {
+        "name": "acuatico",
+        "color": "#2E8FDE",
+        "score": 100
+      },
+      {
+        "name": "aromatico",
+        "color": "#37A089",
+        "score": 88
+      },
+      {
+        "name": "citrico",
+        "color": "#D4AC0D",
+        "score": 75
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 60
+      }
+    ],
+    "notas": {
+      "top": [
+        "Limon",
+        "Menta",
+        "Grosella Negra",
+        "Pimienta Rosa"
+      ],
+      "middle": [
+        "Manzana",
+        "Cedro",
+        "Incienso"
+      ],
+      "base": [
+        "Jengibre",
+        "Sandalo",
+        "Pachuli",
+        "Jazmin"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Citronellol",
+      "Geraniol",
+      "Citral"
+    ],
+    "rating": 3.9,
+    "duracion": "Moderada",
+    "temporadas": [
+      "Primavera",
+      "Verano"
+    ]
+  },
+  {
+    "id": "70465",
+    "brand": "Lattafa",
+    "name": "Fakhar Black",
+    "year": 2022,
+    "precio": 800,
+    "en_stock": true,
+    "categoria": "versatil",
+    "genero": "hombre",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.70465.jpg",
+    "desc": "Dupe del YSL Y EDP / Eros. Frutal especiado fresco con pina, bergamota y manzana. Base especiada y maderada. Muy versatil para cualquier clima y ocasion.",
+    "accords": [
+      {
+        "name": "frutal",
+        "color": "#FC4B29",
+        "score": 100
+      },
+      {
+        "name": "especiado",
+        "color": "#CC3300",
+        "score": 88
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 75
+      },
+      {
+        "name": "aromatico",
+        "color": "#37A089",
+        "score": 62
+      }
+    ],
+    "notas": {
+      "top": [
+        "Pina",
+        "Bergamota",
+        "Manzana"
+      ],
+      "middle": [
+        "Pachuli",
+        "Jazmin",
+        "Rosa"
+      ],
+      "base": [
+        "Almizcle",
+        "Ambar",
+        "Vainilla"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Citronellol",
+      "Geraniol",
+      "Alpha-Isomethyl Ionone",
+      "Citral"
+    ],
+    "rating": 3.8,
+    "duracion": "Larga",
+    "temporadas": [
+      "Primavera",
+      "Verano",
+      "Otono"
+    ]
+  },
+  {
+    "id": "THEOREME",
+    "brand": "Rue Broca",
+    "name": "Theoreme",
+    "year": 2021,
+    "precio": 850,
+    "en_stock": true,
+    "categoria": "calor",
+    "genero": "hombre",
+    "photo": "https://via.placeholder.com/375x500/1f1a15/c9a84c?text=Theoreme",
+    "desc": "Dupe del Bvlgari Aqva / Tygar. Citrico marino fresco con bergamota y toronja. Base de ambar gris y maderas. Similar al Turathi Blue pero con mas presencia marina. Ideal para calor.",
+    "accords": [
+      {
+        "name": "citrico",
+        "color": "#D4AC0D",
+        "score": 100
+      },
+      {
+        "name": "acuatico",
+        "color": "#2E8FDE",
+        "score": 88
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 72
+      },
+      {
+        "name": "almizcle",
+        "color": "#B0A090",
+        "score": 58
+      }
+    ],
+    "notas": {
+      "top": [
+        "Bergamota",
+        "Toronja",
+        "Citricos"
+      ],
+      "middle": [
+        "Notas Marinas",
+        "Madera Blanca"
+      ],
+      "base": [
+        "Ambar Gris",
+        "Almizcle",
+        "Madera"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Citral",
+      "Ambroxan"
+    ],
+    "rating": 3.7,
+    "duracion": "Moderada",
+    "temporadas": [
+      "Primavera",
+      "Verano"
+    ]
+  },
+  {
+    "id": "82727",
+    "brand": "Lattafa",
+    "name": "Maahir Legacy",
+    "year": 2022,
+    "precio": 750,
+    "en_stock": true,
+    "categoria": "calor",
+    "genero": "hombre",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.82727.jpg",
+    "desc": "Fresco citrico efervescente con apertura tipo Sprite/Seven Up. Lima-limon y vetiver musky. Seco en polvo suave y almizcle. Ideal para diario y oficina en primavera-verano.",
+    "accords": [
+      {
+        "name": "citrico",
+        "color": "#D4AC0D",
+        "score": 100
+      },
+      {
+        "name": "aromatico",
+        "color": "#37A089",
+        "score": 85
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 68
+      },
+      {
+        "name": "almizcle",
+        "color": "#B0A090",
+        "score": 55
+      }
+    ],
+    "notas": {
+      "top": [
+        "Lima",
+        "Limon",
+        "Bergamota"
+      ],
+      "middle": [
+        "Lavanda",
+        "Vetiver",
+        "Especias"
+      ],
+      "base": [
+        "Almizcle",
+        "Ambar",
+        "Madera"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Citral",
+      "Coumarin"
+    ],
+    "rating": 3.8,
+    "duracion": "Moderada",
+    "temporadas": [
+      "Primavera",
+      "Verano"
+    ]
+  },
+  {
+    "id": "64105",
+    "brand": "Armaf",
+    "name": "Club de Nuit Sillage",
+    "year": 2020,
+    "precio": 800,
+    "en_stock": true,
+    "categoria": "versatil",
+    "genero": "unisex",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64105.jpg",
+    "desc": "Dupe del Creed Silver Mountain Water. Citrico floral maderado unisex. Bergamota, limon y lima con grosella negra, violeta y jengibre. Base de almizcle y vetiver. Elegante y limpio.",
+    "accords": [
+      {
+        "name": "citrico",
+        "color": "#D4AC0D",
+        "score": 100
+      },
+      {
+        "name": "floral",
+        "color": "#E87DBE",
+        "score": 82
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 70
+      },
+      {
+        "name": "almizcle",
+        "color": "#B0A090",
+        "score": 60
+      }
+    ],
+    "notas": {
+      "top": [
+        "Bergamota",
+        "Limon",
+        "Lima",
+        "Grosella Negra",
+        "Violeta",
+        "Jengibre"
+      ],
+      "middle": [
+        "Iris",
+        "Rosa",
+        "Jazmin"
+      ],
+      "base": [
+        "Almizcle",
+        "Vetiver",
+        "Ambar"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Citral",
+      "Benzyl Salicylate"
+    ],
+    "rating": 3.8,
+    "duracion": "Moderada",
+    "temporadas": [
+      "Primavera",
+      "Verano"
+    ]
+  },
+  {
+    "id": "RAMZ_SILVER",
+    "brand": "Lattafa",
+    "name": "Ramz Silver",
+    "year": 2021,
+    "precio": 750,
+    "en_stock": true,
+    "categoria": "noche",
+    "genero": "hombre",
+    "photo": "https://via.placeholder.com/375x500/1f1a15/c9a84c?text=Ramz+Silver",
+    "desc": "DNA similar al 9PM de Afnan. Dulce gourmand oriental con vainilla, haba tonka y especias. Excelente duracion y proyeccion para su precio. Perfecto para noches de otono-invierno.",
+    "accords": [
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 100
+      },
+      {
+        "name": "gourmand",
+        "color": "#DDA356",
+        "score": 90
+      },
+      {
+        "name": "oriental",
+        "color": "#BC4D10",
+        "score": 78
+      },
+      {
+        "name": "especiado",
+        "color": "#CC3300",
+        "score": 65
+      }
+    ],
+    "notas": {
+      "top": [
+        "Manzana",
+        "Canela",
+        "Bergamota"
+      ],
+      "middle": [
+        "Haba Tonka",
+        "Flores",
+        "Especias"
+      ],
+      "base": [
+        "Vainilla",
+        "Almizcle",
+        "Ambar"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Cinnamal",
+      "Benzyl Benzoate",
+      "Eugenol",
+      "Citral"
+    ],
+    "rating": 3.9,
+    "duracion": "Eterna",
+    "temporadas": [
+      "Otono",
+      "Invierno"
+    ]
+  },
+  {
+    "id": "64466",
+    "brand": "Armaf",
+    "name": "Odyssey Homme White Edition",
+    "year": 2020,
+    "precio": 700,
+    "en_stock": true,
+    "categoria": "versatil",
+    "genero": "hombre",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64466.jpg",
+    "desc": "Dupe del Stronger With You de Emporio Armani. Oriental fougere fresco. Cardamomo, pimienta rosa y menta con notas acuaticas y pina. Base de amberwood, vainilla y cedro.",
+    "accords": [
+      {
+        "name": "especiado",
+        "color": "#CC3300",
+        "score": 100
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 85
+      },
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 72
+      },
+      {
+        "name": "fresco",
+        "color": "#2E8FDE",
+        "score": 60
+      }
+    ],
+    "notas": {
+      "top": [
+        "Cardamomo",
+        "Pimienta Rosa",
+        "Menta"
+      ],
+      "middle": [
+        "Notas Acuaticas",
+        "Salvia",
+        "Pina"
+      ],
+      "base": [
+        "Amberwood",
+        "Vainilla",
+        "Cedro"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Eugenol",
+      "Cinnamal",
+      "Geraniol",
+      "Citral"
+    ],
+    "rating": 3.9,
+    "duracion": "Larga",
+    "temporadas": [
+      "Otono",
+      "Invierno",
+      "Primavera"
+    ]
+  },
+  {
+    "id": "ODYSSEY_BLACK",
+    "brand": "Armaf",
+    "name": "Odyssey Homme Black Edition",
+    "year": 2020,
+    "precio": 750,
+    "en_stock": true,
+    "categoria": "noche",
+    "genero": "hombre",
+    "photo": "https://via.placeholder.com/375x500/1f1a15/c9a84c?text=Odyssey+Black",
+    "desc": "Dupe del Spicebomb Extreme / Viktor&Rolf. Ambar y vainilla al inicio con iris, especias orientales y cuero. Base de vainilla, cuero y jazmin. Oscuro y seductor para noches de invierno.",
+    "accords": [
+      {
+        "name": "especiado calido",
+        "color": "#CC3300",
+        "score": 100
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 88
+      },
+      {
+        "name": "cuero",
+        "color": "#8B4513",
+        "score": 78
+      },
+      {
+        "name": "oriental",
+        "color": "#BC4D10",
+        "score": 68
+      }
+    ],
+    "notas": {
+      "top": [
+        "Ambar",
+        "Vainilla"
+      ],
+      "middle": [
+        "Iris",
+        "Especias Orientales",
+        "Notas Amaderadas"
+      ],
+      "base": [
+        "Vainilla",
+        "Cuero",
+        "Jazmin"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Cinnamal",
+      "Eugenol",
+      "Benzyl Benzoate",
+      "Citral"
+    ],
+    "rating": 3.8,
+    "duracion": "Larga",
+    "temporadas": [
+      "Otono",
+      "Invierno"
+    ]
+  },
+  {
+    "id": "76880",
+    "brand": "Lattafa",
+    "name": "Yara",
+    "year": 2020,
+    "precio": 700,
+    "en_stock": true,
+    "categoria": "versatil",
+    "genero": "mujer",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.76880.jpg",
+    "desc": "El bestseller femenino de Lattafa. Oriental vainilla dulce con orquidea, heliotropo y mandarina. Corazon de frutas tropicales. Base de vainilla, almizcle y sandalo. Compliment machine femenino.",
+    "accords": [
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 100
+      },
+      {
+        "name": "floral",
+        "color": "#E87DBE",
+        "score": 88
+      },
+      {
+        "name": "frutal",
+        "color": "#FC4B29",
+        "score": 78
+      },
+      {
+        "name": "vainilla",
+        "color": "#DDA356",
+        "score": 70
+      }
+    ],
+    "notas": {
+      "top": [
+        "Orquidea",
+        "Heliotropo",
+        "Mandarina"
+      ],
+      "middle": [
+        "Acuerdo Gourmand",
+        "Frutas Tropicales"
+      ],
+      "base": [
+        "Vainilla",
+        "Almizcle",
+        "Sandalo"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Alpha-Isomethyl Ionone",
+      "Citral",
+      "Benzyl Salicylate"
+    ],
+    "rating": 3.9,
+    "duracion": "Moderada",
+    "temporadas": [
+      "Todo el ano"
+    ]
+  },
+  {
+    "id": "83320",
+    "brand": "Lattafa",
+    "name": "Yara Tous",
+    "year": 2023,
+    "precio": 720,
+    "en_stock": true,
+    "categoria": "calor",
+    "genero": "mujer",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.83320.jpg",
+    "desc": "La mejor de la familia Yara segun fans. Mango cremoso tropical con coco, fruta de la pasion, jazmin y heliotropo. Base de vainilla, almizcle y cashmeran. Para verano y calor.",
+    "accords": [
+      {
+        "name": "tropical",
+        "color": "#2ECC71",
+        "score": 100
+      },
+      {
+        "name": "frutal",
+        "color": "#FC4B29",
+        "score": 92
+      },
+      {
+        "name": "floral",
+        "color": "#E87DBE",
+        "score": 78
+      },
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 65
+      }
+    ],
+    "notas": {
+      "top": [
+        "Mango",
+        "Coco",
+        "Fruta de la Pasion"
+      ],
+      "middle": [
+        "Jazmin",
+        "Azahar",
+        "Heliotropo"
+      ],
+      "base": [
+        "Vainilla",
+        "Almizcle",
+        "Cashmeran"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Alpha-Isomethyl Ionone",
+      "Citral",
+      "Benzyl Salicylate"
+    ],
+    "rating": 4.1,
+    "duracion": "Moderada",
+    "temporadas": [
+      "Primavera",
+      "Verano"
+    ]
+  },
+  {
+    "id": "81376",
+    "brand": "Asdaaf",
+    "name": "Ameerat Al Arab",
+    "year": 2022,
+    "precio": 650,
+    "en_stock": true,
+    "categoria": "versatil",
+    "genero": "mujer",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.81376.jpg",
+    "desc": "Dupe del Gucci Bloom. Floral limpio y femenino con bergamota y citricos al inicio, corazon de aloe vera y almizcle blanco, base de jazmin, oud y notas amaderadas. Diario elegante.",
+    "accords": [
+      {
+        "name": "floral",
+        "color": "#E87DBE",
+        "score": 100
+      },
+      {
+        "name": "almizcle",
+        "color": "#B0A090",
+        "score": 85
+      },
+      {
+        "name": "citrico",
+        "color": "#D4AC0D",
+        "score": 70
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 58
+      }
+    ],
+    "notas": {
+      "top": [
+        "Citricos",
+        "Bergamota"
+      ],
+      "middle": [
+        "Almizcle Blanco",
+        "Aloe Vera"
+      ],
+      "base": [
+        "Jazmin",
+        "Almizcle",
+        "Notas Amaderadas",
+        "Oud"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Alpha-Isomethyl Ionone",
+      "Citral",
+      "Benzyl Salicylate"
+    ],
+    "rating": 3.8,
+    "duracion": "Moderada",
+    "temporadas": [
+      "Todo el ano"
+    ]
+  },
+  {
+    "id": "78474",
+    "brand": "Armaf",
+    "name": "Club de Nuit White Imperiale",
+    "year": 2022,
+    "precio": 800,
+    "en_stock": true,
+    "categoria": "versatil",
+    "genero": "mujer",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78474.jpg",
+    "desc": "Dupe del Chanel N5 / Coco Mademoiselle. Floral oriental cremoso femenino. Litchi, bergamota y nuez moscada con rosa turca, vainilla y peonia. Base de incienso, cashmeran y cedro.",
+    "accords": [
+      {
+        "name": "floral",
+        "color": "#E87DBE",
+        "score": 100
+      },
+      {
+        "name": "oriental",
+        "color": "#BC4D10",
+        "score": 85
+      },
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 75
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 62
+      }
+    ],
+    "notas": {
+      "top": [
+        "Litchi",
+        "Bergamota",
+        "Nuez Moscada"
+      ],
+      "middle": [
+        "Rosa Turca",
+        "Vainilla",
+        "Almizcle",
+        "Peonia"
+      ],
+      "base": [
+        "Vainilla",
+        "Incienso",
+        "Cashmeran",
+        "Cedro"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Alpha-Isomethyl Ionone",
+      "Citral",
+      "Benzyl Salicylate",
+      "Eugenol"
+    ],
+    "rating": 3.9,
+    "duracion": "Larga",
+    "temporadas": [
+      "Todo el ano"
+    ]
+  },
+  {
+    "id": "85094",
+    "brand": "Lattafa",
+    "name": "Sakeena",
+    "year": 2022,
+    "precio": 750,
+    "en_stock": true,
+    "categoria": "noche",
+    "genero": "mujer",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.85094.jpg",
+    "desc": "Frutal floral gourmand femenino. Fruta de la pasion, notas ozonicas y mandarina con frambuesa, rosa y azahar. Base de toffee, praline y vainilla. Compliment magnet para noches.",
+    "accords": [
+      {
+        "name": "frutal",
+        "color": "#FC4B29",
+        "score": 100
+      },
+      {
+        "name": "floral",
+        "color": "#E87DBE",
+        "score": 88
+      },
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 80
+      },
+      {
+        "name": "gourmand",
+        "color": "#DDA356",
+        "score": 68
+      }
+    ],
+    "notas": {
+      "top": [
+        "Fruta de la Pasion",
+        "Notas Ozonicas",
+        "Mandarina"
+      ],
+      "middle": [
+        "Frambuesa",
+        "Rosa",
+        "Azahar",
+        "Sal Marina"
+      ],
+      "base": [
+        "Toffee",
+        "Praline",
+        "Vainilla",
+        "Almizcle"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Alpha-Isomethyl Ionone",
+      "Citral",
+      "Benzyl Salicylate"
+    ],
+    "rating": 4.0,
+    "duracion": "Larga",
+    "temporadas": [
+      "Otono",
+      "Invierno"
+    ]
+  },
+  {
+    "id": "78560",
+    "brand": "Lattafa",
+    "name": "Nebras",
+    "year": 2022,
+    "precio": 700,
+    "en_stock": true,
+    "categoria": "versatil",
+    "genero": "unisex",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.78560.jpg",
+    "desc": "Gourmand dulce unisex. Bayas rojas y mandarina con vainilla, cacao y rosa. Base de azucar, haba tonka, ambar y almizcle. Superior al Billie Eilish No.1 segun fans. Para cualquier temporada.",
+    "accords": [
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 100
+      },
+      {
+        "name": "gourmand",
+        "color": "#DDA356",
+        "score": 92
+      },
+      {
+        "name": "frutal",
+        "color": "#FC4B29",
+        "score": 78
+      },
+      {
+        "name": "floral",
+        "color": "#E87DBE",
+        "score": 60
+      }
+    ],
+    "notas": {
+      "top": [
+        "Bayas Rojas",
+        "Mandarina"
+      ],
+      "middle": [
+        "Vainilla",
+        "Cacao",
+        "Rosa"
+      ],
+      "base": [
+        "Azucar",
+        "Haba Tonka",
+        "Ambar",
+        "Almizcle"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Cinnamal",
+      "Benzyl Benzoate",
+      "Eugenol",
+      "Citral"
+    ],
+    "rating": 4.0,
+    "duracion": "Larga",
+    "temporadas": [
+      "Todo el ano"
+    ]
+  },
+  {
+    "id": "90273",
+    "brand": "Maison Alhambra",
+    "name": "Delilah pour Femme",
+    "year": 2023,
+    "precio": 750,
+    "en_stock": true,
+    "categoria": "versatil",
+    "genero": "mujer",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.90273.jpg",
+    "desc": "Dupe del Parfums de Marly Delina. Floral frutal femenino elegante. Ruibarbo, litchi y bergamota con rosa turca, peonia y lirio. Base de almizcle blanco, cashmeran y vainilla.",
+    "accords": [
+      {
+        "name": "floral",
+        "color": "#E87DBE",
+        "score": 100
+      },
+      {
+        "name": "frutal",
+        "color": "#FC4B29",
+        "score": 85
+      },
+      {
+        "name": "almizcle",
+        "color": "#B0A090",
+        "score": 72
+      },
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 58
+      }
+    ],
+    "notas": {
+      "top": [
+        "Ruibarbo",
+        "Litchi",
+        "Bergamota"
+      ],
+      "middle": [
+        "Rosa Turca",
+        "Peonia",
+        "Lirio"
+      ],
+      "base": [
+        "Almizcle Blanco",
+        "Cashmeran",
+        "Vainilla"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Alpha-Isomethyl Ionone",
+      "Citral",
+      "Benzyl Salicylate"
+    ],
+    "rating": 3.9,
+    "duracion": "Moderada",
+    "temporadas": [
+      "Todo el ano"
+    ]
+  },
+  {
+    "id": "3165",
+    "brand": "Yves Saint Laurent",
+    "name": "La Nuit de L'Homme",
+    "year": 2009,
+    "precio": 2200,
+    "en_stock": true,
+    "categoria": "noche",
+    "genero": "hombre",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.3165.jpg",
+    "desc": "Icono de la perfumeria masculina nocturna. Cardamomo, lavanda y cedro con notas amaderadas. El favorito para citas romanticas y noches especiales. Seco, especiado y seductor.",
+    "accords": [
+      {
+        "name": "especiado",
+        "color": "#CC3300",
+        "score": 100
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 88
+      },
+      {
+        "name": "lavanda",
+        "color": "#9B59B6",
+        "score": 78
+      },
+      {
+        "name": "citrico",
+        "color": "#D4AC0D",
+        "score": 62
+      }
+    ],
+    "notas": {
+      "top": [
+        "Cardamomo",
+        "Bergamota",
+        "Lavanda",
+        "Cedro"
+      ],
+      "middle": [
+        "Cedro",
+        "Vetiver"
+      ],
+      "base": [
+        "Ambar",
+        "Almizcle",
+        "Balsamo del Peru"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Cinnamal",
+      "Citronellol",
+      "Geraniol",
+      "Eugenol"
+    ],
+    "rating": 4.2,
+    "duracion": "Larga",
+    "temporadas": [
+      "Otono",
+      "Invierno"
+    ]
+  },
+  {
+    "id": "25889",
+    "brand": "Jean Paul Gaultier",
+    "name": "Le Male Le Parfum",
+    "year": 2020,
+    "precio": 2500,
+    "en_stock": true,
+    "categoria": "noche",
+    "genero": "hombre",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.25889.jpg",
+    "desc": "Version Parfum del legendario Le Male. Menta y lavanda intensificadas con vainilla, almizcle y ambar. El mejor Le Male segun la comunidad. Bestia nocturna absoluta.",
+    "accords": [
+      {
+        "name": "menta",
+        "color": "#37A089",
+        "score": 100
+      },
+      {
+        "name": "lavanda",
+        "color": "#9B59B6",
+        "score": 92
+      },
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 85
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 70
+      }
+    ],
+    "notas": {
+      "top": [
+        "Menta",
+        "Lavanda"
+      ],
+      "middle": [
+        "Canela",
+        "Cumin",
+        "Flor de Naranja"
+      ],
+      "base": [
+        "Almizcle",
+        "Vainilla",
+        "Ambar",
+        "Sandalo"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Cinnamal",
+      "Citronellol",
+      "Geraniol",
+      "Eugenol",
+      "Benzyl Benzoate"
+    ],
+    "rating": 4.3,
+    "duracion": "Eterna",
+    "temporadas": [
+      "Otono",
+      "Invierno"
+    ]
+  },
+  {
+    "id": "46339",
+    "brand": "Versace",
+    "name": "Pour Homme",
+    "year": 2008,
+    "precio": 1800,
+    "en_stock": true,
+    "categoria": "calor",
+    "genero": "hombre",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46339.jpg",
+    "desc": "Clasico disenador fresco mediterraneo. Citrico aromatico limpio con bergamota, limon y neroli. Corazon de hierbas y cedro. Base de almizcle y madera. Ideal para calor y oficina.",
+    "accords": [
+      {
+        "name": "citrico",
+        "color": "#D4AC0D",
+        "score": 100
+      },
+      {
+        "name": "aromatico",
+        "color": "#37A089",
+        "score": 88
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 72
+      },
+      {
+        "name": "almizcle",
+        "color": "#B0A090",
+        "score": 60
+      }
+    ],
+    "notas": {
+      "top": [
+        "Bergamota",
+        "Limon",
+        "Neroli"
+      ],
+      "middle": [
+        "Hierbas Aromaticas",
+        "Jacinto",
+        "Cedro"
+      ],
+      "base": [
+        "Almizcle",
+        "Madera",
+        "Ambar"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Citral",
+      "Coumarin",
+      "Benzyl Salicylate"
+    ],
+    "rating": 3.9,
+    "duracion": "Moderada",
+    "temporadas": [
+      "Primavera",
+      "Verano"
+    ]
+  },
+  {
+    "id": "47095",
+    "brand": "Giorgio Armani",
+    "name": "Acqua di Gio Profondo",
+    "year": 2021,
+    "precio": 2800,
+    "en_stock": true,
+    "categoria": "calor",
+    "genero": "hombre",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.47095.jpg",
+    "desc": "El marino de disenador definitivo. Mineral y acuatico profundo con bergamota, menta marina y nota mineral. Corazon de romero y cipres. Base de pachuli y vetiver. Beast mode en calor.",
+    "accords": [
+      {
+        "name": "acuatico",
+        "color": "#2E8FDE",
+        "score": 100
+      },
+      {
+        "name": "mineral",
+        "color": "#708090",
+        "score": 90
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 72
+      },
+      {
+        "name": "aromatico",
+        "color": "#37A089",
+        "score": 60
+      }
+    ],
+    "notas": {
+      "top": [
+        "Bergamota",
+        "Nota Mineral",
+        "Menta Marina"
+      ],
+      "middle": [
+        "Romero",
+        "Cipres",
+        "Lavanda"
+      ],
+      "base": [
+        "Pachuli",
+        "Madera",
+        "Vetiver"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Citral",
+      "Coumarin",
+      "Benzyl Salicylate"
+    ],
+    "rating": 4.1,
+    "duracion": "Larga",
+    "temporadas": [
+      "Primavera",
+      "Verano"
+    ]
+  },
+  {
+    "id": "64574",
+    "brand": "Valentino",
+    "name": "Uomo Born in Roma",
+    "year": 2019,
+    "precio": 2600,
+    "en_stock": true,
+    "categoria": "versatil",
+    "genero": "hombre",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.64574.jpg",
+    "desc": "Moderno disenador italiano. Bergamota brillante con acuerdo lavanda-salvia. Corazon de madera blanca y cashmere. Base de vetiver y ambar. Elegante y versatil para cualquier ocasion.",
+    "accords": [
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 100
+      },
+      {
+        "name": "aromatico",
+        "color": "#37A089",
+        "score": 85
+      },
+      {
+        "name": "citrico",
+        "color": "#D4AC0D",
+        "score": 72
+      },
+      {
+        "name": "almizcle",
+        "color": "#B0A090",
+        "score": 62
+      }
+    ],
+    "notas": {
+      "top": [
+        "Bergamota",
+        "Salvia",
+        "Lavanda"
+      ],
+      "middle": [
+        "Madera Blanca",
+        "Cashmere"
+      ],
+      "base": [
+        "Vetiver",
+        "Ambar",
+        "Almizcle"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Citronellol",
+      "Geraniol",
+      "Citral",
+      "Benzyl Salicylate"
+    ],
+    "rating": 4.0,
+    "duracion": "Moderada",
+    "temporadas": [
+      "Todo el ano"
+    ]
+  },
+  {
+    "id": "72706",
+    "brand": "Azzaro",
+    "name": "The Most Wanted Parfum",
+    "year": 2022,
+    "precio": 2400,
+    "en_stock": true,
+    "categoria": "noche",
+    "genero": "hombre",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.72706.jpg",
+    "desc": "Gourmand especiado oriental. Lavanda, bergamota y pimienta con lavanda especiada y cuero. Base de madera de cedro y ambar. Seductor y oscuro para noches y otono-invierno.",
+    "accords": [
+      {
+        "name": "especiado calido",
+        "color": "#CC3300",
+        "score": 100
+      },
+      {
+        "name": "gourmand",
+        "color": "#DDA356",
+        "score": 88
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 78
+      },
+      {
+        "name": "lavanda",
+        "color": "#9B59B6",
+        "score": 65
+      }
+    ],
+    "notas": {
+      "top": [
+        "Lavanda",
+        "Bergamota",
+        "Pimienta"
+      ],
+      "middle": [
+        "Lavanda Especiada",
+        "Cuero"
+      ],
+      "base": [
+        "Cedro",
+        "Ambar",
+        "Madera"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Cinnamal",
+      "Citronellol",
+      "Geraniol",
+      "Eugenol"
+    ],
+    "rating": 4.1,
+    "duracion": "Larga",
+    "temporadas": [
+      "Otono",
+      "Invierno"
+    ]
+  },
+  {
+    "id": "79225",
+    "brand": "Paco Rabanne",
+    "name": "Invictus Victory Elixir",
+    "year": 2022,
+    "precio": 2800,
+    "en_stock": true,
+    "categoria": "noche",
+    "genero": "hombre",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.79225.jpg",
+    "desc": "La version mas intensa del Invictus. Toronja y menta con corazon de laurel y japon. Base de patchouli oscuro, cuero y ambar. Para noches y eventos formales de alto impacto.",
+    "accords": [
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 100
+      },
+      {
+        "name": "especiado",
+        "color": "#CC3300",
+        "score": 88
+      },
+      {
+        "name": "citrico",
+        "color": "#D4AC0D",
+        "score": 75
+      },
+      {
+        "name": "almizcle",
+        "color": "#B0A090",
+        "score": 65
+      }
+    ],
+    "notas": {
+      "top": [
+        "Toronja",
+        "Menta"
+      ],
+      "middle": [
+        "Laurel",
+        "Madera"
+      ],
+      "base": [
+        "Pachuli",
+        "Cuero",
+        "Ambar Gris"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Citronellol",
+      "Geraniol",
+      "Citral",
+      "Benzyl Benzoate"
+    ],
+    "rating": 4.2,
+    "duracion": "Larga",
+    "temporadas": [
+      "Otono",
+      "Invierno"
+    ]
+  },
+  {
+    "id": "46370",
+    "brand": "Carolina Herrera",
+    "name": "Good Girl",
+    "year": 2016,
+    "precio": 2800,
+    "en_stock": true,
+    "categoria": "noche",
+    "genero": "mujer",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46370.jpg",
+    "desc": "El disenador femenino mas iconic de la decada. Jasmin, cafe y almendra con tuberosa y cacao. Base de notas amaderadas y vainilla. Sensual, oscuro y femenino. El favorito para noches.",
+    "accords": [
+      {
+        "name": "floral",
+        "color": "#E87DBE",
+        "score": 100
+      },
+      {
+        "name": "gourmand",
+        "color": "#DDA356",
+        "score": 92
+      },
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 85
+      },
+      {
+        "name": "amaderado",
+        "color": "#774414",
+        "score": 70
+      }
+    ],
+    "notas": {
+      "top": [
+        "Almendra",
+        "Cafe",
+        "Bergamota"
+      ],
+      "middle": [
+        "Jasmin",
+        "Tuberosa",
+        "Iris"
+      ],
+      "base": [
+        "Notas Amaderadas",
+        "Cocoa",
+        "Vainilla",
+        "Pachuli"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Alpha-Isomethyl Ionone",
+      "Citral",
+      "Benzyl Salicylate",
+      "Eugenol"
+    ],
+    "rating": 4.1,
+    "duracion": "Larga",
+    "temporadas": [
+      "Otono",
+      "Invierno"
+    ]
+  },
+  {
+    "id": "61104",
+    "brand": "Yves Saint Laurent",
+    "name": "Libre EDP",
+    "year": 2019,
+    "precio": 2800,
+    "en_stock": true,
+    "categoria": "versatil",
+    "genero": "mujer",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.61104.jpg",
+    "desc": "El disenador femenino mas popular de los ultimos anos. Lavanda francesa y flores de naranja con acuerdo musgo y almizcle. Base de vainilla y ambar. Fresco-floral audaz y moderno.",
+    "accords": [
+      {
+        "name": "floral",
+        "color": "#E87DBE",
+        "score": 100
+      },
+      {
+        "name": "lavanda",
+        "color": "#9B59B6",
+        "score": 90
+      },
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 75
+      },
+      {
+        "name": "almizcle",
+        "color": "#B0A090",
+        "score": 65
+      }
+    ],
+    "notas": {
+      "top": [
+        "Lavanda Francesa",
+        "Flor de Naranjo Mandarin",
+        "Bergamota"
+      ],
+      "middle": [
+        "Lavanda",
+        "Flor de Naranja"
+      ],
+      "base": [
+        "Vainilla Bourbon",
+        "Ambar Gris",
+        "Acuerdo Cedro"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Coumarin",
+      "Citronellol",
+      "Geraniol",
+      "Alpha-Isomethyl Ionone",
+      "Citral",
+      "Benzyl Salicylate"
+    ],
+    "rating": 4.1,
+    "duracion": "Larga",
+    "temporadas": [
+      "Todo el ano"
+    ]
+  },
+  {
+    "id": "56987",
+    "brand": "Mugler",
+    "name": "Alien Goddess",
+    "year": 2021,
+    "precio": 2600,
+    "en_stock": true,
+    "categoria": "noche",
+    "genero": "mujer",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.56987.jpg",
+    "desc": "Oriental ambarado femenino de culto. Bergamota y mandarina con acuerdo de jazmines. Base de haba tonka, cedro y ambar blanco. Calido, sensual y envolvente para otono-invierno.",
+    "accords": [
+      {
+        "name": "floral",
+        "color": "#E87DBE",
+        "score": 100
+      },
+      {
+        "name": "oriental",
+        "color": "#BC4D10",
+        "score": 90
+      },
+      {
+        "name": "dulce",
+        "color": "#EE363B",
+        "score": 82
+      },
+      {
+        "name": "ambarado",
+        "color": "#DDA356",
+        "score": 75
+      }
+    ],
+    "notas": {
+      "top": [
+        "Bergamota",
+        "Mandarina",
+        "Acuerdo Solar"
+      ],
+      "middle": [
+        "Jasmin",
+        "Acuerdo Jazmin Blanco"
+      ],
+      "base": [
+        "Haba Tonka",
+        "Cedro",
+        "Ambar Blanco",
+        "Almizcle"
+      ]
+    },
+    "ingredientes": [
+      "Alcohol Denat.",
+      "Parfum",
+      "Aqua",
+      "Limonene",
+      "Linalool",
+      "Citronellol",
+      "Geraniol",
+      "Alpha-Isomethyl Ionone",
+      "Citral",
+      "Coumarin",
+      "Benzyl Benzoate"
+    ],
+    "rating": 4.2,
+    "duracion": "Larga",
+    "temporadas": [
+      "Otono",
+      "Invierno"
+    ]
   }
 ]
