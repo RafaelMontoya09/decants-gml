@@ -556,7 +556,7 @@
     "year": 2022,
     "precio": 650,
     "en_stock": false,
-    "photo": "https://via.placeholder.com/375x500/1a3a6b/7bbff0?text=Gectic",
+    "photo": "https://via.placeholder.com/375x500/1f1a15/c9a84c?text=Gectic",
     "desc": "Propuesta moderna y limpia, ideal para uso diario. Acordes verdes y amaderados equilibrados con notas frescas y aromáticas.",
     "accords": [
       {
@@ -622,7 +622,7 @@
     "year": 2022,
     "precio": 900,
     "en_stock": false,
-    "photo": "https://via.placeholder.com/375x500/1a3a6b/7bbff0?text=Shiakashado",
+    "photo": "https://via.placeholder.com/375x500/1f1a15/c9a84c?text=Shiakashado",
     "desc": "Oriental rico en especias cálidas, resinas y maderas lujosas. Para noches de otoño e invierno.",
     "accords": [
       {
@@ -3825,7 +3825,7 @@
     ]
   },
   {
-    "id": "47095",
+    "id": "59558",
     "brand": "Giorgio Armani",
     "name": "Acqua di Gio Profondo",
     "year": 2021,
@@ -3833,7 +3833,7 @@
     "en_stock": true,
     "categoria": "calor",
     "genero": "hombre",
-    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.47095.jpg",
+    "photo": "https://fimgs.net/mdimg/perfume-thumbs/375x500.59558.jpg",
     "desc": "El marino de disenador definitivo. Mineral y acuatico profundo con bergamota, menta marina y nota mineral. Corazon de romero y cipres. Base de pachuli y vetiver. Beast mode en calor.",
     "accords": [
       {
