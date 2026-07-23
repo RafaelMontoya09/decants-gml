@@ -189,6 +189,54 @@
              border:1px solid rgba(255,255,255,.15);transition:opacity .15s,transform .1s}
     .buy-btn:hover{opacity:.9;transform:scale(.99)}
 
+    /* ── HERO / HOW IT WORKS ── */
+    .hero-section{background:var(--bg2);border-bottom:1px solid var(--border);padding:.9rem 2rem}
+    .hero-inner{max-width:1120px;margin:0 auto}
+    .how-it-works{display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap}
+    .hiw-title{font-family:"Cormorant Garamond",serif;font-size:16px;font-weight:500;
+               color:var(--gold2);letter-spacing:.06em;white-space:nowrap;flex-shrink:0}
+    .hiw-steps{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+    .hiw-step{display:flex;flex-direction:column;align-items:center;gap:4px}
+    .hiw-icon{font-size:22px;line-height:1}
+    .hiw-label{font-size:10px;color:var(--text2);text-align:center;line-height:1.4;
+               letter-spacing:.04em}
+    .hiw-arrow{font-size:16px;color:var(--gold);opacity:.6;flex-shrink:0}
+
+    /* ── SORT ── */
+    .sort-select{font-family:"DM Sans",sans-serif;font-size:12px;color:var(--text2);
+                 background:var(--bg3);border:1px solid var(--border);border-radius:8px;
+                 padding:5px 10px;cursor:pointer;outline:none;flex-shrink:0;margin-left:auto}
+    .sort-select:focus{border-color:var(--gold)}
+    .sort-select option{background:var(--bg2)}
+
+    /* ── FOOTER ── */
+    .site-footer{background:var(--bg2);border-top:1px solid var(--border);
+                 padding:2.5rem 2rem 1rem;margin-top:2rem}
+    .footer-inner{max-width:1120px;margin:0 auto;display:flex;gap:3rem;flex-wrap:wrap;
+                  padding-bottom:2rem;border-bottom:1px solid var(--border)}
+    .footer-brand{display:flex;flex-direction:column;gap:12px;min-width:160px}
+    .footer-logo-wrap{width:80px;height:80px;background:#fff;border-radius:12px;
+                      padding:4px;border:1px solid var(--border2);overflow:hidden}
+    .footer-logo{width:100%;height:100%;object-fit:contain}
+    .footer-tagline{font-size:12px;color:var(--text2);line-height:1.6}
+    .footer-links{display:flex;gap:3rem;flex-wrap:wrap;flex:1}
+    .footer-col{display:flex;flex-direction:column;gap:8px;min-width:130px}
+    .footer-col-title{font-size:11px;font-weight:500;color:var(--gold);
+                      letter-spacing:.1em;text-transform:uppercase;margin-bottom:2px}
+    .footer-link{font-size:12px;color:var(--text2);text-decoration:none;
+                 transition:color .15s}
+    .footer-link:hover{color:var(--gold2)}
+    .footer-text{font-size:12px;color:var(--text3)}
+    .footer-bottom{max-width:1120px;margin:1rem auto 0;font-size:11px;
+                   color:var(--text3);text-align:center;letter-spacing:.04em}
+
+    /* ── WHATSAPP FLOTANTE ── */
+    .wa-float{position:fixed;bottom:24px;right:24px;width:56px;height:56px;
+              background:#25D366;border-radius:50%;display:flex;align-items:center;
+              justify-content:center;color:#fff;box-shadow:0 4px 20px rgba(37,211,102,.4);
+              text-decoration:none;z-index:999;transition:transform .2s,box-shadow .2s}
+    .wa-float:hover{transform:scale(1.08);box-shadow:0 6px 28px rgba(37,211,102,.55)}
+
     @media(max-width:700px){
       .topbar{padding:.9rem 1rem}
       .filter-bar{padding:.6rem 1rem}
@@ -222,6 +270,36 @@
   <span class="item-count" id="itemCount"></span>
 </div>
 
+<!-- ── HERO ── -->
+<div class="hero-section">
+  <div class="hero-inner">
+    <div class="how-it-works">
+      <div class="hiw-title">¿Cómo funciona?</div>
+      <div class="hiw-steps">
+        <div class="hiw-step">
+          <div class="hiw-icon">🔍</div>
+          <div class="hiw-label">Elige tu<br>perfume</div>
+        </div>
+        <div class="hiw-arrow">→</div>
+        <div class="hiw-step">
+          <div class="hiw-icon">🧪</div>
+          <div class="hiw-label">Selecciona<br>el tamaño</div>
+        </div>
+        <div class="hiw-arrow">→</div>
+        <div class="hiw-step">
+          <div class="hiw-icon">💬</div>
+          <div class="hiw-label">Escríbenos<br>por WhatsApp</div>
+        </div>
+        <div class="hiw-arrow">→</div>
+        <div class="hiw-step">
+          <div class="hiw-icon">📦</div>
+          <div class="hiw-label">Recibe tu<br>pedido</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- ── FILTER BAR ── -->
 <div class="filter-bar">
   <div class="filters" id="filterChips">
@@ -238,6 +316,13 @@
     <button class="fchip" data-marca="Lattafa">Lattafa</button>
     <button class="fchip" data-marca="Afnan">Afnan</button>
   </div>
+  <select id="sortSelect" class="sort-select">
+    <option value="default">Ordenar por...</option>
+    <option value="precio-asc">Precio: menor a mayor</option>
+    <option value="precio-desc">Precio: mayor a menor</option>
+    <option value="rating">Mejor calificados</option>
+    <option value="nombre">Nombre A-Z</option>
+  </select>
 </div>
 
 <!-- ── CATÁLOGO ── -->
@@ -359,6 +444,7 @@ function renderCatalogo(filtro){
   var grid=document.getElementById("catalogGrid");
   grid.innerHTML="";
   var q=filtro.toLowerCase();
+  var sortVal=document.getElementById("sortSelect")?document.getElementById("sortSelect").value:"default";
 
   var lista=PERFUMES.filter(function(p){
     var matchQ=!q||p.name.toLowerCase().includes(q)||p.brand.toLowerCase().includes(q)||
@@ -374,6 +460,12 @@ function renderCatalogo(filtro){
 
   if(soloStock)lista=lista.filter(function(p){return p.en_stock!==false;});
   document.getElementById("itemCount").textContent=lista.length+" perfume"+(lista.length!==1?"s":"");
+  // Ordenar
+  if(sortVal==="precio-asc") lista.sort(function(a,b){return a.precio-b.precio;});
+  else if(sortVal==="precio-desc") lista.sort(function(a,b){return b.precio-a.precio;});
+  else if(sortVal==="rating") lista.sort(function(a,b){return (b.rating||0)-(a.rating||0);});
+  else if(sortVal==="nombre") lista.sort(function(a,b){return a.name.localeCompare(b.name);});
+
   if(!lista.length){grid.innerHTML='<div class="status-msg">No se encontraron perfumes.</div>';return;}
   lista.forEach(function(p){grid.appendChild(crearTarjeta(p));});
 }
@@ -439,6 +531,9 @@ document.getElementById("catalogGrid").addEventListener("click",function(e){
 
 document.getElementById("searchBar").addEventListener("input",function(e){renderCatalogo(e.target.value);});
 
+var sortEl=document.getElementById("sortSelect");
+if(sortEl) sortEl.addEventListener("change",function(){renderCatalogo(document.getElementById("searchBar").value);});
+
 document.getElementById("stockLabel").addEventListener("click",function(){
   soloStock=!soloStock;
   document.getElementById("stockTrack").classList.toggle("on",soloStock);
@@ -447,5 +542,48 @@ document.getElementById("stockLabel").addEventListener("click",function(){
 
 
 </script>
+<!-- ── FOOTER ── -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-logo-wrap">
+        <img src="https://RafaelMontoya09.github.io/decants-gml/logo_png.png" alt="Decants GML" class="footer-logo" onerror="this.style.display='none'">
+      </div>
+      <div class="footer-tagline">Perfumes Árabes y Diseñador<br>100% Originales</div>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <div class="footer-col-title">Contacto</div>
+        <a href="https://wa.me/526731345446" target="_blank" class="footer-link">📱 WhatsApp</a>
+        <a href="mailto:decantsgml@gmail.com" class="footer-link">✉️ decantsgml@gmail.com</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Redes Sociales</div>
+        <a href="https://www.instagram.com/decantsgml" target="_blank" class="footer-link">📸 Instagram</a>
+        <a href="https://www.tiktok.com/@decantsgml" target="_blank" class="footer-link">🎵 TikTok</a>
+        <a href="https://www.facebook.com/decantsgml" target="_blank" class="footer-link">👥 Facebook</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Información</div>
+        <div class="footer-text">Envíos a todo México</div>
+        <div class="footer-text">Decants desde 5ml</div>
+        <div class="footer-text">Fragancias 100% originales</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Decants GML · Todos los derechos reservados</span>
+  </div>
+</footer>
+
+<!-- ── BOTÓN FLOTANTE WHATSAPP ── -->
+<a href="https://wa.me/526731345446?text=Hola!%20Me%20interesa%20conocer%20sus%20perfumes%20disponibles." 
+   target="_blank" class="wa-float" aria-label="Contactar por WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+    <path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.532 5.855L.054 23.447a.5.5 0 0 0 .616.612l5.71-1.496A11.944 11.944 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.808 9.808 0 0 1-5.032-1.384l-.36-.214-3.733.978.997-3.645-.234-.374A9.808 9.808 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+  </svg>
+</a>
+
 </body>
 </html>
